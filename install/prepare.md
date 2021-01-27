@@ -2,7 +2,7 @@
 title: 写在前面
 description: 在开始前，您需要了解的事项
 published: true
-date: 2021-01-27T12:25:21.411Z
+date: 2021-01-27T16:53:08.239Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:51:03.801Z
@@ -19,7 +19,7 @@ dateCreated: 2020-10-09T12:51:03.801Z
 
 ### CPU
 
-无特别要求。但是目前我们的 [Docker 镜像](https://hub.docker.com/r/ruibaby/halo) 仅支持 x86 架构的 cpu，暂不支持 arm 架构的 cpu。
+无特别要求。目前我们的 [Docker 镜像](https://hub.docker.com/r/halohub/halo) 已经支持多平台。
 
 ### 内存
 
