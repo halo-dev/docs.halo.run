@@ -2,13 +2,13 @@
 title: 使用 Docker 部署 Halo
 description: 使用 Docker 部署
 published: true
-date: 2021-01-26T12:41:42.486Z
+date: 2021-01-27T12:29:19.334Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-10-09T12:50:08.650Z
 ---
 
-> 在继续操作之前，请确保您已经查看了[《写在前面》](/install/prepare)，并且我们假设您已经安装好了 Docker 环境，并且熟悉 Docker 的基本操作。
+> 在继续操作之前，我们推荐您先阅读[《写在前面》](/install/prepare)，这可以快速帮助你了解 Halo。
 {.is-info}
 
 # 使用 Docker 镜像
