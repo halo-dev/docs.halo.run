@@ -2,7 +2,7 @@
 title: 使用 Docker 部署 Halo
 description: 使用 Docker 部署
 published: true
-date: 2021-01-27T16:57:05.539Z
+date: 2021-01-27T16:57:13.658Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:50:08.650Z
@@ -13,9 +13,6 @@ dateCreated: 2020-10-09T12:50:08.650Z
 
 # 使用 Docker 镜像
 Halo 在 Docker Hub 上发布的镜像为 [halohub/halo](https://hub.docker.com/r/halohub/halo)
-
-> 目前 Halo 官方的 Docker 镜像暂时不支持 ARM 架构。
-{.is-warning}
 
 1. 创建[工作目录](/install/prepare#%E5%B7%A5%E4%BD%9C%E7%9B%AE%E5%BD%95)
 ```bash
