@@ -2,7 +2,7 @@
 title: 在 Linux 环境部署
 description: 在Linux上快速安装Halo
 published: true
-date: 2021-01-27T12:28:54.395Z
+date: 2021-01-27T16:55:07.629Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:51:55.006Z
@@ -12,7 +12,7 @@ dateCreated: 2020-10-09T12:51:55.006Z
 {.is-info}
 
 # 依赖检查
-目前运行 Halo 的最低依赖要求为 JRE 1.8，请务必确保在进行下面操作之前已经正确安装了 JRE。
+目前运行 Halo 的最低依赖要求为 JRE 11，请务必确保在进行下面操作之前已经正确安装了 JRE。
 
 检查 JRE 版本：
 
@@ -57,7 +57,7 @@ mkdir ~/app && cd ~/app
 
 3. 下载运行包
 ```bash
-wget https://dl.halo.run/release/halo-1.4.2.jar -O halo.jar
+wget https://dl.halo.run/release/halo-1.4.3.jar -O halo.jar
 ```
 
 4. 创建[工作目录](/install/prepare#%E5%B7%A5%E4%BD%9C%E7%9B%AE%E5%BD%95)
