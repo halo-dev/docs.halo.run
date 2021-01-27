@@ -2,13 +2,13 @@
 title: 在 Linux 环境部署
 description: 在Linux上快速安装Halo
 published: true
-date: 2021-01-27T12:27:46.789Z
+date: 2021-01-27T12:28:54.395Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:51:55.006Z
 ---
 
-> 在继续操作之前，请确保您已经查看了[《写在前面》](/install/prepare)
+> 在继续操作之前，我们推荐您先阅读[《写在前面》](/install/prepare)，这可以快速帮助你了解 Halo。
 {.is-info}
 
 # 依赖检查
