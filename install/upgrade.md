@@ -2,9 +2,9 @@
 title: 版本升级
 description: 版本升级指南
 published: true
-date: 2021-01-26T12:56:09.615Z
+date: 2021-01-27T16:58:11.556Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-10-09T12:53:58.281Z
 ---
 
@@ -13,7 +13,7 @@ dateCreated: 2020-10-09T12:53:58.281Z
 # Tabs {.tabset}
 ## Linux <i class="mdi mdi-ubuntu"></i>
 
-> 我们假设您存放 jar 包的路径为 `~/app`，如有不同，下列命令请按需修改。
+> 我们假设您存放运行包的路径为 `~/app`，运行包的文件名为 `halo.jar`，如有不同，下列命令请按需修改。
 
 1. 停止正在运行的服务
 
