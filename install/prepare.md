@@ -2,9 +2,9 @@
 title: 写在前面
 description: 在开始前，您需要了解的事项
 published: true
-date: 2021-01-26T12:43:14.195Z
+date: 2021-01-27T12:25:21.411Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-10-09T12:51:03.801Z
 ---
 
@@ -71,6 +71,13 @@ create database halodb character set utf8mb4 collate utf8mb4_bin;
 ### Vim（可选）
 
 后续的文档中，我们会使用 vim 为例，用于修改一些必要的配置文件，所以同样请确保服务器已经安装了这个软件包。当前，修改文档也不限制工具，如果你对其他编辑软件熟悉，也可以忽略。
+
+## 服务器推荐
+
+如果您当前还没有购买服务器，可以考虑通过以下链接购买，这会为我们带来一部分收益。此外，如果您已经通过下面的链接购买了服务器，可以[联系我们](mailto:hi@halo.run)帮你免费部署 Halo。
+
+- 阿里云：[https://promotion.aliyun.com/ntms/yunparter/invite.html](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=3t6v5x0v)
+- 腾讯云：[https://curl.qcloud.com](https://curl.qcloud.com/7VVMd37R)
 
 # 浏览器支持
 
