@@ -2,13 +2,13 @@
 title: 安装指南
 description: 简要部署指南，以及部分系统的详细部署流程
 published: true
-date: 2021-01-05T14:21:58.929Z
+date: 2021-01-27T12:28:39.476Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-10-09T12:53:25.248Z
 ---
 
-> 在继续操作之前，请确保您已经查看了[《写在前面》](/install/prepare)
+> 在继续操作之前，我们推荐您先阅读[《写在前面》](/install/prepare)，这可以快速帮助你了解 Halo。
 {.is-info}
 # 完整指南
 
