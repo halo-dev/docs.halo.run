@@ -2,7 +2,7 @@
 title: 写在前面
 description: 在开始前，您需要了解的事项
 published: true
-date: 2021-01-27T16:53:08.239Z
+date: 2021-01-27T16:53:17.849Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:51:03.801Z
@@ -41,7 +41,7 @@ Halo 理论上可以运行在任何支持 Java 的平台。
 
 必须在运行环境安装好 JRE，这是运行 Halo 所要求的的最低软件环境要求。如果您使用 Docker 运行 Halo，可忽略此要求。
 
-> 需要 JRE 1.8 及以上版本。
+> 从 1.4.3 起，版本要求为 11 以上的版本。1.4.3 以下需要 1.8 以上的版本。
 {.is-info}
 
 ### MySQL（可选）
