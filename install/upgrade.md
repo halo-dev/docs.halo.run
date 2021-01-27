@@ -2,7 +2,7 @@
 title: 版本升级
 description: 版本升级指南
 published: true
-date: 2021-01-27T16:59:44.456Z
+date: 2021-01-27T17:00:28.538Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:53:58.281Z
@@ -84,7 +84,7 @@ docker rm -f halo
 2. 拉取最新的 Halo 镜像
 
 ```bash
-docker pull ruibaby/halo
+docker pull halohub/halo
 ```
 
 > 查看最新版本镜像：[https://hub.docker.com/r/halohub/halo](https://hub.docker.com/r/halohub/halo)
