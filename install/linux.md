@@ -2,13 +2,14 @@
 title: 在 Linux 环境部署
 description: 在Linux上快速安装Halo
 published: true
-date: 2021-01-26T12:40:43.986Z
+date: 2021-01-27T12:27:46.789Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-10-09T12:51:55.006Z
 ---
 
-在开始安装前，请确保您已经阅读了[写在前面](/zh/install/prepare)。
+> 在继续操作之前，请确保您已经查看了[《写在前面》](/install/prepare)
+{.is-info}
 
 # 依赖检查
 目前运行 Halo 的最低依赖要求为 JRE 1.8，请务必确保在进行下面操作之前已经正确安装了 JRE。
