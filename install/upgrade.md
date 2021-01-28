@@ -2,7 +2,7 @@
 title: 版本升级
 description: 版本升级指南
 published: true
-date: 2021-01-27T17:00:28.538Z
+date: 2021-01-28T03:14:04.459Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:53:58.281Z
@@ -19,6 +19,20 @@ dateCreated: 2020-10-09T12:53:58.281Z
 {.is-info}
 
 如果您之前是按照文档安装的 JRE，可以尝试使用下面的命令来升级。
+
+查看当前安装的版本：
+
+```bash
+rpm -qa|grep jdk
+```
+
+卸载 `jdk1.8.0` 开头的那个包（包名可能会不一样）：
+
+```bash
+yum remove jdk1.8.0_121-1.8.0_121-fcs.x86_64
+```
+
+安装 OpenJRE 11：
 
 ```bash
 yum install java-11-openjdk -y
