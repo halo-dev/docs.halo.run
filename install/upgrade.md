@@ -2,7 +2,7 @@
 title: 版本升级
 description: 版本升级指南
 published: true
-date: 2021-01-28T03:14:04.459Z
+date: 2021-01-29T15:06:10.137Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:53:58.281Z
@@ -60,7 +60,7 @@ cd ~/app && mv halo.jar halo.jar.bak
 cd ~/app && wget https://dl.halo.run/release/halo-1.4.3.jar -O halo.jar
 ```
 
-> 查看最新版本：[https://dl.halo.run](https://dl.halo.run)
+> 如果下载速度不理想，可以[在这里](/install/downloads)选择其他下载地址。
 {.is-info}
 
 
