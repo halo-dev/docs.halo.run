@@ -2,13 +2,14 @@
 title: 首页
 description: Halo 官方文档
 published: true
-date: 2021-01-26T12:39:49.774Z
+date: 2021-01-29T15:00:33.242Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-10-09T12:41:27.924Z
 ---
 
 # 入门
+- [关于文档 *关于本文档站点的一些说明*](/about)
 - [写在前面 *在开始前，您需要了解的事项*](/install/prepare)
 - [安装指南 *简要部署指南，以及部分系统的详细部署流程*](/install/index)
 - [配置参考 *Halo 配置文件的详细介绍及参考*](/install/config)
