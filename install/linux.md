@@ -2,7 +2,7 @@
 title: 在 Linux 环境部署
 description: 在Linux上快速安装Halo
 published: true
-date: 2021-01-27T16:55:07.629Z
+date: 2021-01-29T15:05:21.886Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:51:55.006Z
@@ -59,6 +59,9 @@ mkdir ~/app && cd ~/app
 ```bash
 wget https://dl.halo.run/release/halo-1.4.3.jar -O halo.jar
 ```
+
+> 如果下载速度不理想，可以[在这里](/install/downloads)选择其他下载地址。
+{.is-info}
 
 4. 创建[工作目录](/install/prepare#%E5%B7%A5%E4%BD%9C%E7%9B%AE%E5%BD%95)
 
