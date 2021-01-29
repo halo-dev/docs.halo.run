@@ -2,9 +2,9 @@
 title: Markdown 语法
 description: Halo 编辑器中所支持的 Markdown 语法说明
 published: true
-date: 2020-11-30T13:27:17.698Z
+date: 2021-01-29T15:08:35.924Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-10-09T14:04:57.014Z
 ---
 
@@ -139,6 +139,9 @@ pie title NETFLIX
 ```
 
 ## 短连接
+
+> 这属于实验性特性，也许我们将在未来的版本移除这个特性。
+{.is-warning}
 
 Halo 内置一些短连接以更好地支持一些 HTML 语法，但是编辑器目前并不能解析，只能发布之后才可以看到效果，如下：
 
