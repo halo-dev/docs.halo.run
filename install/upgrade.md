@@ -2,7 +2,7 @@
 title: 版本升级
 description: 版本升级指南
 published: true
-date: 2021-01-29T15:06:10.137Z
+date: 2021-02-01T13:44:56.364Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:53:58.281Z
@@ -16,7 +16,12 @@ dateCreated: 2020-10-09T12:53:58.281Z
 > 我们假设您存放运行包的路径为 `~/app`，运行包的文件名为 `halo.jar`，如有不同，下列命令请按需修改。
 
 > 从 1.4.3 开始，Halo 最低支持的 JRE 版本为 11，在升级前，请务必先升级 JRE。
+{.is-warning}
+
+> 如果当前您不方便升级到 11，我们推荐使用 [Docker](/install/docker) 运行新版 Halo，从 Jar 包的方式迁移到 Docker 运行非常方便，按照[指南](/install/docker)在创建容器的时候将容器内的 `/root/.halo` 目录映射到当前 Halo 的工作目录即可。
 {.is-info}
+
+JRE 升级方案（针对按照旧版本文档安装 JRE 的用户）：
 
 如果您之前是按照文档安装的 JRE，可以尝试使用下面的命令来升级。
 
