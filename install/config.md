@@ -2,9 +2,9 @@
 title: 配置参考
 description: Halo 配置文件的详细介绍及参考
 published: true
-date: 2021-01-11T13:53:45.827Z
+date: 2021-02-01T14:19:56.336Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-10-16T07:12:17.629Z
 ---
 
@@ -84,7 +84,7 @@ create database halodb character set utf8mb4 collate utf8mb4_bin;
 **注意事项**：
 
 - `username` 及 `password` 需要修改为您的 MySQL 数据库账号和密码。
-- 默认时区为 `Asia/Shan`，如果与您所在时区不一致，则可以修改为您所在的时区。
+- 默认时区为 `Asia/Shanghai`，如果与您所在时区不一致，则可以修改为您所在的时区。
 
 # 高级配置
 高级配置中的配置设置是可选的，如果不需要，可以略过。
