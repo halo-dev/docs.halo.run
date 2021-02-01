@@ -2,7 +2,7 @@
 title: 使用 Docker 部署 Halo
 description: 使用 Docker 部署
 published: true
-date: 2021-02-01T14:24:40.557Z
+date: 2021-02-01T14:24:57.361Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:50:08.650Z
@@ -53,6 +53,8 @@ docker run -it -d --name halo -p 8090:8090 -v ~/.halo:/root/.halo --restart=alwa
 - **--restart：** 建议设置为 `always`，在 Docker 启动的时候自动启动 Halo 容器。
 
 ## 使用 MySQL 数据库
+
+> 编写中...
 
 
 6. 打开 `http://ip:端口号` 即可开始进入安装引导界面。
