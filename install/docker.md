@@ -2,7 +2,7 @@
 title: 使用 Docker 部署 Halo
 description: 使用 Docker 部署
 published: true
-date: 2021-02-01T14:21:48.551Z
+date: 2021-02-01T14:22:02.643Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:50:08.650Z
@@ -39,7 +39,7 @@ docker pull halohub/halo
 
 5. 创建容器
 
-使用默认 `H2 Database`：
+使用默认 `H2 Database` 数据库：
 
 ```bash
 docker run -it -d --name halo -p 8090:8090 -v ~/.halo:/root/.halo --restart=always halohub/halo
