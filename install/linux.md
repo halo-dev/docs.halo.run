@@ -2,7 +2,7 @@
 title: 在 Linux 环境部署
 description: 在Linux上快速安装Halo
 published: true
-date: 2021-01-29T15:05:21.886Z
+date: 2021-02-04T13:45:38.766Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:51:55.006Z
@@ -79,7 +79,7 @@ wget https://dl.halo.run/config/application-template.yaml -O ./application.yaml
 vim application.yaml
 ```
 
-7. 运行 Halo
+7. 测试运行 Halo
 ```bash
 cd ~/app && java -jar halo.jar
 ```
@@ -90,8 +90,10 @@ run.halo.app.listener.StartedListener    : Halo started at         http://127.0.
 run.halo.app.listener.StartedListener    : Halo admin started at   http://127.0.0.1:8090/admin
 run.halo.app.listener.StartedListener    : Halo has started successfully!
 ```
+打开 `http://ip:端口号` 即可看到安装引导界面。
 
-9. 打开 `http://ip:端口号` 即可开始进入安装引导界面。
+> 如测试启动正常，请继续看`作为服务运行`部分，第 8 步仅仅作为测试。当你关闭 ssh 连接之后，服务会停止。你可使用 <kbd>CTRL</kbd>+<kbd>C</kbd> 停止运行测试进程。
+{.is-info}
 
 > 如果需要配置域名访问，建议先配置好反向代理以及域名解析再进行初始化。如果通过 `http://ip:端口号` 的形式无法访问，请到服务器厂商后台将运行的端口号添加到安全组，如果服务器使用了 Linux 面板，请检查此 Linux 面板是否有还有安全组配置，需要同样将端口号添加到安全组。
 {.is-warning}
