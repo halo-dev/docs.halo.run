@@ -2,7 +2,7 @@
 title: 版本升级
 description: 版本升级指南
 published: true
-date: 2021-02-04T07:14:05.581Z
+date: 2021-02-04T13:42:22.633Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:53:58.281Z
@@ -79,7 +79,7 @@ cd ~/app && wget https://dl.halo.run/release/halo-1.4.3.jar -O halo.jar
 java -jar halo.jar
 ```
 
-> 如启动正常，请继续下一步。使用 <kbd>CTRL</kbd>+<kbd>C</kbd> 停止运行测试进程。
+> 如测试启动正常，请继续下一步。使用 <kbd>CTRL</kbd>+<kbd>C</kbd> 停止运行测试进程。
 {.is-info}
 
 5. 重启服务
