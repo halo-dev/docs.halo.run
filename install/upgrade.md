@@ -2,7 +2,7 @@
 title: 版本升级
 description: 版本升级指南
 published: true
-date: 2021-02-01T13:45:16.408Z
+date: 2021-02-04T07:12:44.136Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:53:58.281Z
@@ -35,6 +35,10 @@ rpm -qa|grep jdk
 
 ```bash
 yum remove jdk1.8.0_121-1.8.0_121-fcs.x86_64
+```
+
+```bash
+yum remove java-1.8.0-openjdk-headless-1.8.0.275.b01-1.el8_3.x86_64
 ```
 
 安装 OpenJRE 11：
