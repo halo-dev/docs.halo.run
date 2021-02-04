@@ -2,7 +2,7 @@
 title: 版本升级
 description: 版本升级指南
 published: true
-date: 2021-02-04T07:12:44.136Z
+date: 2021-02-04T07:14:05.581Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:53:58.281Z
@@ -34,7 +34,7 @@ rpm -qa|grep jdk
 卸载 `jdk1.8.0` 开头的那个包（包名可能会不一样）：
 
 ```bash
-yum remove jdk1.8.0_121-1.8.0_121-fcs.x86_64
+yum remove java-1.8.0-openjdk-1.8.0_121-fcs.x86_64
 ```
 
 ```bash
