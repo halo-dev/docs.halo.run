@@ -2,7 +2,7 @@
 title: 在 Linux 环境部署
 description: 在Linux上快速安装Halo
 published: true
-date: 2021-02-08T12:37:54.625Z
+date: 2021-02-18T11:16:39.586Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:51:55.006Z
@@ -119,7 +119,7 @@ vim /etc/systemd/system/halo.service
 ```
 
 4. 修改配置
-- **YOUR_JAR_PATH**：Halo 安装包的绝对路径，例如 `/home/halo/app/halo.jar`，注意：此路径不支持 `~` 符号。
+- **YOUR_JAR_PATH**：Halo 运行包的绝对路径，例如 `/home/halo/app/halo.jar`，注意：此路径不支持 `~` 符号。
 - **USER**：运行 Halo 的系统用户，如果有按照上方教程创建新的用户来运行 Halo，修改为你创建的用户名称即可。反之请删除 `User=USER`。
 
 ```ini
