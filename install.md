@@ -1,10 +1,10 @@
 ---
 title: 入门
-description: 在了解 Halo 之后，您应该为自己搭建一个
+description: 如果您是第一次了解到 Halo，推荐浏览下列指南。
 published: true
-date: 2020-11-30T13:27:53.990Z
+date: 2021-02-20T06:17:19.045Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-11-13T15:12:33.974Z
 ---
 
