@@ -2,7 +2,7 @@
 title: 写在前面
 description: 在开始前，您需要了解的事项
 published: true
-date: 2021-02-02T12:03:35.808Z
+date: 2021-02-21T02:05:23.752Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:51:03.801Z
@@ -19,7 +19,7 @@ dateCreated: 2020-10-09T12:51:03.801Z
 
 ### CPU
 
-无特别要求。目前我们的 [Docker 镜像](https://hub.docker.com/r/halohub/halo) 已经支持多平台。
+无特别要求。目前我们的 [Docker 镜像](https://hub.docker.com/r/halohub/halo) 也已经支持多平台。
 
 ### 内存
 
