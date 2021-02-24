@@ -2,7 +2,7 @@
 title: 问题反馈
 description: 问题反馈渠道及指南
 published: true
-date: 2021-02-24T14:12:10.337Z
+date: 2021-02-24T14:12:29.977Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T06:35:11.969Z
@@ -12,6 +12,8 @@ dateCreated: 2020-10-11T06:35:11.969Z
 {.is-info}
 
 # GitHub Issues
+
+链接：https://github.com/halo-dev/halo/issues
 
 如果你在使用过程中，遇到了一些 bug 或者需要添加某些新特性，请尽量在 GitHub Issues 进行反馈，这非常有助于我们跟踪解决此问题，您也可以很方便的接收到处理状态。
 
