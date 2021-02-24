@@ -2,7 +2,7 @@
 title: 问题反馈
 description: 问题反馈渠道及指南
 published: true
-date: 2021-02-24T14:12:29.977Z
+date: 2021-02-24T14:12:59.504Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T06:35:11.969Z
@@ -24,3 +24,7 @@ dateCreated: 2020-10-11T06:35:11.969Z
 3. 选择正确的反馈类型。
 4. 请尽可能详细的按照模板填写内容。
 5. 点击 `Submit new issue` 提交 issue。
+
+# Halo 官方社区
+
+链接：https://bbs.halo.run
