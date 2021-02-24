@@ -2,7 +2,7 @@
 title: 问题反馈
 description: 问题反馈渠道及指南
 published: true
-date: 2021-02-24T14:12:59.504Z
+date: 2021-02-24T14:14:06.835Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T06:35:11.969Z
@@ -28,3 +28,5 @@ dateCreated: 2020-10-11T06:35:11.969Z
 # Halo 官方社区
 
 链接：https://bbs.halo.run
+
+此平台主要目的用于与其他 Halo 用户进行交流。但如果您对 GitHub 不是很熟悉或者没有账号，您也可以在此平台进行反馈。
