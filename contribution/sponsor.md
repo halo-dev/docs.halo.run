@@ -2,7 +2,7 @@
 title: 赞助我们
 description: 如果 Halo 对您有帮助，不妨赞助我们
 published: true
-date: 2021-02-24T14:35:40.856Z
+date: 2021-02-24T14:39:45.403Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-26T16:33:09.606Z
@@ -19,13 +19,9 @@ dateCreated: 2021-01-26T16:33:09.606Z
 
 ## 资金赞助
 
-微信：
-
-![wechat-pay.png](/assets/wechat-pay.png)
-
-支付宝：
-
-![ali-pay.png](/assets/ali-pay.png)
+| 支付宝 | 微信 |
+| ------ | ---- |
+|   <img alt="ali-pay.png" src="/assets/ali-pay.png" style="width: 150px;">     |   <img alt="wechat-pay.png" src="/assets/wechat-pay.png" style="width: 150px;">   |
 
 ## 部署服务
 
