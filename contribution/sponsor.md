@@ -2,7 +2,7 @@
 title: 赞助我们
 description: 如果 Halo 对您有帮助，不妨赞助我们
 published: true
-date: 2021-02-24T14:26:44.673Z
+date: 2021-02-24T14:32:29.521Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-26T16:33:09.606Z
@@ -20,6 +20,13 @@ dateCreated: 2021-01-26T16:33:09.606Z
 ## 资金赞助
 
 
+## 部署服务
+
+考虑到部分用户可能是非软件行业的，可能对部署维护方面不是太了解，又需要一个博客来发表自己的东西，所以我们推出部署服务，具体可以通过下方联系方式联系我们：
+
+1. QQ：709831589
+2. Telegram：https://t.me/ruibaby
+2. Email：[hi@halo.run](mailto:hi@halo.run)
 
 ## 通过我们的推广链接购买服务器
 
@@ -27,6 +34,7 @@ dateCreated: 2021-01-26T16:33:09.606Z
 
 - 阿里云：[https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=3t6v5x0v](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=3t6v5x0v)
 - 腾讯云：[https://curl.qcloud.com/7VVMd37R](https://curl.qcloud.com/7VVMd37R)
+
 
 ## 精神赞助
 
