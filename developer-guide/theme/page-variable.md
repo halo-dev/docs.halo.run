@@ -2,7 +2,7 @@
 title: 页面变量
 description: 每个页面所返回的变量
 published: true
-date: 2021-02-25T13:48:32.569Z
+date: 2021-02-25T13:51:02.636Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:14:42.747Z
@@ -649,6 +649,103 @@ ${metas.key}
 
 ### posts（Object）
 
+#### Tabs {.tabset}
+##### 语法
+
+```html
+<#list posts.content as post>
+// do something
+</#list>
+```
+
+##### 参数
+
+```json
+[{
+	"content": [{
+		"categories": [{
+			"createTime": "2020-10-13T13:23:39.143Z",
+			"description": "string",
+			"fullPath": "string",
+			"id": 0,
+			"name": "string",
+			"parentId": 0,
+			"slug": "string",
+			"thumbnail": "string"
+		}],
+		"commentCount": 0,
+		"createTime": "2020-10-13T13:23:39.143Z",
+		"disallowComment": true,
+		"editTime": "2020-10-13T13:23:39.143Z",
+		"editorType": "MARKDOWN",
+		"fullPath": "string",
+		"id": 0,
+		"likes": 0,
+		"metaDescription": "string",
+		"metaKeywords": "string",
+		"metas": {},
+		"password": "string",
+		"slug": "string",
+		"status": "PUBLISHED",
+		"summary": "string",
+		"tags": [{
+			"createTime": "2020-10-13T13:23:39.143Z",
+			"fullPath": "string",
+			"id": 0,
+			"name": "string",
+			"slug": "string",
+			"thumbnail": "string"
+		}],
+		"template": "string",
+		"thumbnail": "string",
+		"title": "string",
+		"topPriority": 0,
+		"topped": true,
+		"updateTime": "2020-10-13T13:23:39.143Z",
+		"visits": 0,
+		"wordCount": 0
+	}],
+	"empty": true,
+	"first": true,
+	"last": true,
+	"number": 0,
+	"numberOfElements": 0,
+	"pageable": {
+		"page": 0,
+		"size": 0,
+		"sort": [
+			"string"
+		]
+	},
+	"size": 0,
+	"sort": {
+		"sort": [
+			"string"
+		]
+	},
+	"totalElements": 0,
+	"totalPages": 0
+}]
+```
+
+##### 示例
+
+遍历输出某个分类的文章：
+
+```html
+<#list posts.content as post>
+	<a href="${post.fullPath!}">${post.title!}</a>
+</#list>
+```
+
+输出：
+
+```html
+<a href="http://localhost:8090/archives/url1">title1</a>
+<a href="http://localhost:8090/archives/url2">title2</a>
+<a href="http://localhost:8090/archives/url3">title3</a>
+```
+
 ### category（Object）
 
 ## 标签页面（tags.ftl）
@@ -660,6 +757,103 @@ ${metas.key}
 访问路径不固定，视固定链接配置而定，默认为：`http://yourdomain/tags/{slug}`
 
 ### posts（Object）
+
+#### Tabs {.tabset}
+##### 语法
+
+```html
+<#list posts.content as post>
+// do something
+</#list>
+```
+
+##### 参数
+
+```json
+[{
+	"content": [{
+		"categories": [{
+			"createTime": "2020-10-13T13:23:39.143Z",
+			"description": "string",
+			"fullPath": "string",
+			"id": 0,
+			"name": "string",
+			"parentId": 0,
+			"slug": "string",
+			"thumbnail": "string"
+		}],
+		"commentCount": 0,
+		"createTime": "2020-10-13T13:23:39.143Z",
+		"disallowComment": true,
+		"editTime": "2020-10-13T13:23:39.143Z",
+		"editorType": "MARKDOWN",
+		"fullPath": "string",
+		"id": 0,
+		"likes": 0,
+		"metaDescription": "string",
+		"metaKeywords": "string",
+		"metas": {},
+		"password": "string",
+		"slug": "string",
+		"status": "PUBLISHED",
+		"summary": "string",
+		"tags": [{
+			"createTime": "2020-10-13T13:23:39.143Z",
+			"fullPath": "string",
+			"id": 0,
+			"name": "string",
+			"slug": "string",
+			"thumbnail": "string"
+		}],
+		"template": "string",
+		"thumbnail": "string",
+		"title": "string",
+		"topPriority": 0,
+		"topped": true,
+		"updateTime": "2020-10-13T13:23:39.143Z",
+		"visits": 0,
+		"wordCount": 0
+	}],
+	"empty": true,
+	"first": true,
+	"last": true,
+	"number": 0,
+	"numberOfElements": 0,
+	"pageable": {
+		"page": 0,
+		"size": 0,
+		"sort": [
+			"string"
+		]
+	},
+	"size": 0,
+	"sort": {
+		"sort": [
+			"string"
+		]
+	},
+	"totalElements": 0,
+	"totalPages": 0
+}]
+```
+
+##### 示例
+
+遍历输出某个标签的文章：
+
+```html
+<#list posts.content as post>
+	<a href="${post.fullPath!}">${post.title!}</a>
+</#list>
+```
+
+输出：
+
+```html
+<a href="http://localhost:8090/archives/url1">title1</a>
+<a href="http://localhost:8090/archives/url2">title2</a>
+<a href="http://localhost:8090/archives/url3">title3</a>
+```
 
 ### tag（Object）
 
