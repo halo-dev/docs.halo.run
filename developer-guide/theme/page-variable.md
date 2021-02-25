@@ -2,7 +2,7 @@
 title: 页面变量
 description: 每个页面所返回的变量
 published: true
-date: 2021-02-25T13:51:02.636Z
+date: 2021-02-25T13:52:56.884Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:14:42.747Z
@@ -863,7 +863,121 @@ ${metas.key}
 
 ### keyword（String）
 
+#### Tabs {.tabset}
+##### 语法
+
+```html
+${keyword!}
+```
+
+##### 参数
+
+无
+
+##### 示例
+
+```html
+搜索关键字为：${keyword!}
+```
+
 ### posts（Object）
+
+#### Tabs {.tabset}
+##### 语法
+
+```html
+<#list posts.content as post>
+// do something
+</#list>
+```
+
+##### 参数
+
+```json
+[{
+	"content": [{
+		"categories": [{
+			"createTime": "2020-10-13T13:23:39.143Z",
+			"description": "string",
+			"fullPath": "string",
+			"id": 0,
+			"name": "string",
+			"parentId": 0,
+			"slug": "string",
+			"thumbnail": "string"
+		}],
+		"commentCount": 0,
+		"createTime": "2020-10-13T13:23:39.143Z",
+		"disallowComment": true,
+		"editTime": "2020-10-13T13:23:39.143Z",
+		"editorType": "MARKDOWN",
+		"fullPath": "string",
+		"id": 0,
+		"likes": 0,
+		"metaDescription": "string",
+		"metaKeywords": "string",
+		"metas": {},
+		"password": "string",
+		"slug": "string",
+		"status": "PUBLISHED",
+		"summary": "string",
+		"tags": [{
+			"createTime": "2020-10-13T13:23:39.143Z",
+			"fullPath": "string",
+			"id": 0,
+			"name": "string",
+			"slug": "string",
+			"thumbnail": "string"
+		}],
+		"template": "string",
+		"thumbnail": "string",
+		"title": "string",
+		"topPriority": 0,
+		"topped": true,
+		"updateTime": "2020-10-13T13:23:39.143Z",
+		"visits": 0,
+		"wordCount": 0
+	}],
+	"empty": true,
+	"first": true,
+	"last": true,
+	"number": 0,
+	"numberOfElements": 0,
+	"pageable": {
+		"page": 0,
+		"size": 0,
+		"sort": [
+			"string"
+		]
+	},
+	"size": 0,
+	"sort": {
+		"sort": [
+			"string"
+		]
+	},
+	"totalElements": 0,
+	"totalPages": 0
+}]
+```
+
+##### 示例
+
+遍历输出某个搜索结果的文章：
+
+```html
+<#list posts.content as post>
+	<a href="${post.fullPath!}">${post.title!}</a>
+</#list>
+```
+
+输出：
+
+```html
+<a href="http://localhost:8090/archives/url1">title1</a>
+<a href="http://localhost:8090/archives/url2">title2</a>
+<a href="http://localhost:8090/archives/url3">title3</a>
+```
 
 ## 友情链接页面（links.ftl）
 
