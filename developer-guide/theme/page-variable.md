@@ -2,7 +2,7 @@
 title: 页面变量
 description: 每个页面所返回的变量
 published: true
-date: 2021-02-25T13:18:27.572Z
+date: 2021-02-25T13:19:44.182Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:14:42.747Z
@@ -204,9 +204,19 @@ ${post.attribute}
 }
 ```
 
-
-
 ##### 示例
+
+获取文章标题：
+
+```html
+<span>${post.title!}</span>
+```
+
+输出：
+
+```html
+<span>示例文章</span>
+```
 
 ### prevPost（Object）
 
