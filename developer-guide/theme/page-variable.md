@@ -2,7 +2,7 @@
 title: 页面变量
 description: 每个页面所返回的变量
 published: true
-date: 2021-02-25T13:13:16.183Z
+date: 2021-02-25T13:18:27.572Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:14:42.747Z
@@ -122,6 +122,91 @@ dateCreated: 2020-10-11T15:14:42.747Z
 - `http://yourdomain/archives/{id}`
 
 ### post（Object）
+
+#### Tabs {.tabset}
+##### 语法
+
+```html
+${post.attribute}
+```
+
+注：attribute 代表具体属性。
+
+##### 参数
+
+```json
+{
+  "categories": [
+    {
+      "createTime": "2021-02-25T13:15:58.589Z",
+      "description": "string",
+      "fullPath": "string",
+      "id": 0,
+      "name": "string",
+      "parentId": 0,
+      "password": "string",
+      "slug": "string",
+      "thumbnail": "string"
+    }
+  ],
+  "categoryIds": [
+    0
+  ],
+  "commentCount": 0,
+  "createTime": "2021-02-25T13:15:58.589Z",
+  "disallowComment": true,
+  "editTime": "2021-02-25T13:15:58.589Z",
+  "editorType": "MARKDOWN",
+  "formatContent": "string",
+  "fullPath": "string",
+  "id": 0,
+  "likes": 0,
+  "metaDescription": "string",
+  "metaIds": [
+    0
+  ],
+  "metaKeywords": "string",
+  "metas": [
+    {
+      "createTime": "2021-02-25T13:15:58.589Z",
+      "id": 0,
+      "key": "string",
+      "postId": 0,
+      "value": "string"
+    }
+  ],
+  "originalContent": "string",
+  "password": "string",
+  "slug": "string",
+  "status": "DRAFT",
+  "summary": "string",
+  "tagIds": [
+    0
+  ],
+  "tags": [
+    {
+      "createTime": "2021-02-25T13:15:58.589Z",
+      "fullPath": "string",
+      "id": 0,
+      "name": "string",
+      "slug": "string",
+      "thumbnail": "string"
+    }
+  ],
+  "template": "string",
+  "thumbnail": "string",
+  "title": "string",
+  "topPriority": 0,
+  "topped": true,
+  "updateTime": "2021-02-25T13:15:58.589Z",
+  "visits": 0,
+  "wordCount": 0
+}
+```
+
+
+
+##### 示例
 
 ### prevPost（Object）
 
