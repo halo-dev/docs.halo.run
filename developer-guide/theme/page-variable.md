@@ -2,7 +2,7 @@
 title: 页面变量
 description: 每个页面所返回的变量
 published: true
-date: 2021-02-25T13:36:19.973Z
+date: 2021-02-25T13:38:27.293Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:14:42.747Z
@@ -506,6 +506,72 @@ ${nextPost.attribute}
 访问路径不固定，视固定链接配置而定，默认为：`http://yourdomain/s/{slug}`
 
 ### sheet（Object）
+
+#### Tabs {.tabset}
+##### 语法
+
+```html
+${sheet.attribute}
+```
+
+注：attribute 代表具体属性。
+
+##### 参数
+
+```json
+{
+  "commentCount": 0,
+  "createTime": "2021-02-25T13:37:29.775Z",
+  "disallowComment": true,
+  "editTime": "2021-02-25T13:37:29.775Z",
+  "editorType": "MARKDOWN",
+  "formatContent": "string",
+  "fullPath": "string",
+  "id": 0,
+  "likes": 0,
+  "metaDescription": "string",
+  "metaIds": [
+    0
+  ],
+  "metaKeywords": "string",
+  "metas": [
+    {
+      "createTime": "2021-02-25T13:37:29.775Z",
+      "id": 0,
+      "key": "string",
+      "postId": 0,
+      "value": "string"
+    }
+  ],
+  "originalContent": "string",
+  "password": "string",
+  "slug": "string",
+  "status": "DRAFT",
+  "summary": "string",
+  "template": "string",
+  "thumbnail": "string",
+  "title": "string",
+  "topPriority": 0,
+  "topped": true,
+  "updateTime": "2021-02-25T13:37:29.775Z",
+  "visits": 0,
+  "wordCount": 0
+}
+```
+
+##### 示例
+
+获取页面标题：
+
+```html
+<span>${sheet.title!}</span>
+```
+
+输出：
+
+```html
+<span>示例页面</span>
+```
 
 ### metas（Object）
 
