@@ -2,7 +2,7 @@
 title: 页面变量
 description: 每个页面所返回的变量
 published: true
-date: 2021-02-25T13:24:22.154Z
+date: 2021-02-25T13:36:19.973Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:14:42.747Z
@@ -418,7 +418,88 @@ ${nextPost.attribute}
 
 ### categories（List）
 
+#### Tabs {.tabset}
+##### 语法
+
+```html
+<#list categories as category>
+// do something
+</#list>
+```
+
+##### 参数
+
+```json
+[{
+	"createTime": "2021-02-25T13:32:11.189Z",
+	"description": "string",
+	"fullPath": "string",
+	"id": 0,
+	"name": "string",
+	"parentId": 0,
+	"password": "string",
+	"slug": "string",
+	"thumbnail": "string"
+}]
+```
+
+##### 示例
+
+获取文章的分类列表：
+
+```html
+<#list categories as category>
+	<a href="${category.fullPath!}">${category.name!}</a>
+</#list>
+```
+
+输出：
+
+```html
+<a href="http://localhost:8090/categories/url1">name1</a>
+<a href="http://localhost:8090/categories/url2">name2</a>
+```
+
 ### tags（List）
+
+#### Tabs {.tabset}
+##### 语法
+
+```html
+<#list tags as tag>
+// do something
+</#list>
+```
+
+##### 参数
+
+```json
+[{
+	"createTime": "2021-02-25T13:34:48.779Z",
+	"fullPath": "string",
+	"id": 0,
+	"name": "string",
+	"slug": "string",
+	"thumbnail": "string"
+}]
+```
+
+##### 示例
+
+获取文章的标签列表：
+
+```html
+<#list tags as tag>
+	<a href="${tag.fullPath!}">${tag.name!}</a>
+</#list>
+```
+
+输出：
+
+```html
+<a href="http://localhost:8090/tags/url1">name1</a>
+<a href="http://localhost:8090/tags/url2">name2</a>
+```
 
 ## 自定义页面（sheet.ftl）
 
