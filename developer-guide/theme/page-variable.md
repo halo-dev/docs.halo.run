@@ -2,7 +2,7 @@
 title: 页面变量
 description: 每个页面所返回的变量
 published: true
-date: 2021-02-25T13:07:37.059Z
+date: 2021-02-25T13:08:28.885Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:14:42.747Z
@@ -16,6 +16,12 @@ dateCreated: 2020-10-11T15:14:42.747Z
 
 #### Tabs {.tabset}
 ##### 语法
+
+```html
+<#list posts.content as post>
+// do something
+</#list>
+```
 
 ##### 参数
 
