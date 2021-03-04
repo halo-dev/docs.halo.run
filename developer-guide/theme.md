@@ -2,9 +2,9 @@
 title: 主题开发
 description: Halo 主题模板的开发指南
 published: true
-date: 2020-11-30T13:27:22.447Z
+date: 2021-03-04T12:48:08.008Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-10-10T13:17:44.713Z
 ---
 
@@ -14,7 +14,6 @@ dateCreated: 2020-10-10T13:17:44.713Z
 - [公共宏模板 *系统提供的一些宏模板*](/developer-guide/theme/public-template-tag)
 - [页面变量 *每个页面所返回的变量*](/developer-guide/theme/page-variable)
 - [模板标签 *用于获取数据的模板标签*](/developer-guide/theme/template-tag)
-- [接入评论](/install/bt)
 - [常用代码片段示例 *一些常用的代码片段示例*](#)
 
 {.links-list}
