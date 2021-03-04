@@ -2,7 +2,7 @@
 title: 相关说明
 description: 开发环境的一些说明
 published: true
-date: 2021-03-04T12:56:25.883Z
+date: 2021-03-04T13:01:26.461Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-04T12:56:25.883Z
@@ -12,7 +12,7 @@ dateCreated: 2021-03-04T12:56:25.883Z
 
 1. IDE：[IntelliJ IDEA](https://www.jetbrains.com/idea/download/) 或者 [STS](https://spring.io/tools)（Spring Tools Suite）
 2. 工具：[Gradle](https://gradle.org/)，[Lombok](https://projectlombok.org/) 插件
-3. JDK：`1.8+`
+3. JDK：`11+`
 
 <article class="message is-success">
   <div class="message-body">
