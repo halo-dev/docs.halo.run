@@ -2,7 +2,7 @@
 title: 相关说明
 description: 开发环境的一些说明
 published: true
-date: 2021-03-04T13:01:26.461Z
+date: 2021-03-04T13:03:16.070Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-04T12:56:25.883Z
@@ -14,25 +14,14 @@ dateCreated: 2021-03-04T12:56:25.883Z
 2. 工具：[Gradle](https://gradle.org/)，[Lombok](https://projectlombok.org/) 插件
 3. JDK：`11+`
 
-<article class="message is-success">
-  <div class="message-body">
+> 推荐 IntelliJ IDEA 社区版（开源免费）https://github.com/JetBrains/intellij-community
 
-推荐 IntelliJ IDEA 社区版（开源免费）
-https://github.com/JetBrains/intellij-community
-
-  </div>
-</article>
-
-<article class="message is-warning">
-  <div class="message-body">
 
 `Halo` 项目使用了 `Lombok`，运行 `Halo` 之前请检查 `IDE` 是否已经安装好了 `Lombok` 插件。
 
 如果使用的 `IDE` 是 `IntelliJ IDEA`，请在设置中启用 `Build, Execution, Deployment/Annotation Processors` 的 `Enable annotation processing`。
 
 如果仍然因为 `Lombok` 报错，请更新 `IntelliJ IDEA` 至最新版。
-  </div>
-</article>
 
 ## 克隆项目（Optional）
 
@@ -49,13 +38,7 @@ git submodule init
 git submodule update
 ```
 
-<article class="message is-success">
-  <div class="message-body">
-
 这里推荐使用第二种方式进行克隆，这样每次提交代码的时候，就不会提示登录 `Github` 了。
-
-  </div>
-</article>
 
 ## 导入项目
 
@@ -107,9 +90,6 @@ git submodule update
 2019-06-06 16:20:52.285 DEBUG 1330 --- [  restartedMain] run.halo.app.listener.StartedListener    : Halo doc was enable at  http://127.0.0.1:8090/swagger-ui.html # 仅在开发环境才会输出
 ```
 
-<article class="message is-success">
-  <div class="message-body">
-
 首次运行的时候，会跳转到博客安装页面，请大家耐心填写完毕，最后正式进入`开发之旅`。
 
 这里推荐一个配置：
@@ -120,9 +100,6 @@ git submodule update
 | 昵称   | test          |
 | 邮箱   | test@test.com |
 | 密码   | opentest      |
-
-  </div>
-</article>
 
 ---
 
