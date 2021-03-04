@@ -2,7 +2,7 @@
 title: 页面变量
 description: 每个页面所返回的变量
 published: true
-date: 2021-02-25T13:52:56.884Z
+date: 2021-03-04T12:30:42.353Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:14:42.747Z
@@ -643,6 +643,8 @@ ${metas.key}
 
 访问路径不固定，视固定链接配置而定，默认为：`http://yourdomain/categories`
 
+此页面无页面变量，可以使用 [模板标签](https://docs.halo.run/zh/developer-guide/theme/template-tag) 获取分类列表。
+
 ## 单个分类所属文章页面（category.ftl）
 
 访问路径不固定，视固定链接配置而定，默认为：`http://yourdomain/categories/{slug}`
@@ -751,6 +753,8 @@ ${metas.key}
 ## 标签页面（tags.ftl）
 
 访问路径不固定，视固定链接配置而定，默认为：`http://yourdomain/tags`
+
+此页面无页面变量，可以使用 [模板标签](https://docs.halo.run/zh/developer-guide/theme/template-tag) 获取分类列表。
 
 ## 单个标签所属文章页面（tag.ftl）
 
