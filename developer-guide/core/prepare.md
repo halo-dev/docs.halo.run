@@ -2,7 +2,7 @@
 title: 相关说明
 description: 开发环境的一些说明
 published: true
-date: 2021-03-04T13:03:26.324Z
+date: 2021-03-04T13:03:33.786Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-04T12:56:25.883Z
@@ -140,14 +140,9 @@ git submodule update
 
 > 来源于 <https://zeroturnaround.com/software/jrebel/quickstart/intellij/enable-automatic-compilation-in-intellij-idea/>
 
-<article class="message is-success">
-  <div class="message-body">
 
 Developer Tools 原理
 
 在保存代码的时候，`IDE` 会自动为我们编译代码，`Developer Tools` 检测到代码的 `class 文件`（只能检测 `classpath` 下的 `class 文件`）的变更，会自动重启项目。注意，这里的重启速度会有质的提升，具体原因是 `Spring Boot` 提供的 `restart 技术`提供了两个 `classloaders`：`base classloader` 和 `restart classloader`。当项目重启的时候 `restart classloader` 将会被抛弃，并重启创建一个，这比 `code starts`（冷启动）快很多。当然，肯定是比不上 `JRebel` 采用的 `Reload 技术`。
 
 更多细节请查阅: [Automatic Restart](https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-devtools.html#using-boot-devtools-restart)
-
-  </div>
-</article>
