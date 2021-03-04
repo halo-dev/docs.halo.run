@@ -2,7 +2,7 @@
 title: 页面变量
 description: 每个页面所返回的变量
 published: true
-date: 2021-03-04T12:30:42.353Z
+date: 2021-03-04T12:34:43.376Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:14:42.747Z
