@@ -2,7 +2,7 @@
 title: 页面变量
 description: 每个页面所返回的变量
 published: true
-date: 2021-03-04T12:37:21.844Z
+date: 2021-03-04T12:45:47.894Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:14:42.747Z
@@ -1000,6 +1000,8 @@ ${keyword!}
 ## 友情链接页面（links.ftl）
 
 访问路径不固定，视固定链接配置而定，默认为：`http://yourdomain/links`
+
+此页面无页面变量，可以使用 [模板标签](https://docs.halo.run/zh/developer-guide/theme/template-tag) 获取分类列表。
 
 ## 图库页面（photos.ftl）
 
