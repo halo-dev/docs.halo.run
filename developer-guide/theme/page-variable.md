@@ -2,7 +2,7 @@
 title: 页面变量
 description: 每个页面所返回的变量
 published: true
-date: 2021-03-04T12:34:43.376Z
+date: 2021-03-04T12:37:21.844Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:14:42.747Z
@@ -750,6 +750,13 @@ ${metas.key}
 
 ### category（Object）
 
+#### Tabs {.tabset}
+##### 语法
+
+##### 参数
+
+##### 示例
+
 ## 标签页面（tags.ftl）
 
 访问路径不固定，视固定链接配置而定，默认为：`http://yourdomain/tags`
@@ -860,6 +867,13 @@ ${metas.key}
 ```
 
 ### tag（Object）
+
+#### Tabs {.tabset}
+##### 语法
+
+##### 参数
+
+##### 示例
 
 ## 文章搜索结果页面（search.ftl）
 
