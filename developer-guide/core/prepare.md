@@ -2,7 +2,7 @@
 title: 相关说明
 description: 开发环境的一些说明
 published: true
-date: 2021-03-04T13:03:16.070Z
+date: 2021-03-04T13:03:26.324Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-04T12:56:25.883Z
@@ -121,13 +121,7 @@ git submodule update
 --spring.profiles.active=dev
 ```
 
-<article class="message is-success">
-  <div class="message-body">
-
 `IDE` 一般都会提供一个 `Run/Debug 配置`，可以添加 `VM options` 和 `参数`。以上示例可以直接应用在以`命令运行`方式上。
-
-  </div>
-</article>
 
 ### 启用自动构建（Build project automatically）
 
