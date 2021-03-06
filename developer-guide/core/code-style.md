@@ -2,7 +2,7 @@
 title: 代码风格
 description: 代码风格的相关配置说明
 published: true
-date: 2021-03-04T13:00:36.787Z
+date: 2021-03-06T02:02:26.323Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-04T12:58:29.590Z
@@ -12,7 +12,7 @@ Halo 添加了 checkstyle 插件，来保证每位提交者代码的风格保持
 
 # 安装 CheckStyle-IDEA
 
-- 进入 IDEA 插件市场：File | Settings | Plugins；
+- 进入 IDEA 插件市场。
 - 搜索 CheckStyle-IDEA，点击安装即可。
 
 # 配置 CheckStyle
