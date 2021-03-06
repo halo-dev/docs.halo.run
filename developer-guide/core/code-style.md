@@ -2,7 +2,7 @@
 title: 代码风格
 description: 代码风格的相关配置说明
 published: true
-date: 2021-03-06T02:02:26.323Z
+date: 2021-03-06T02:02:39.730Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-04T12:58:29.590Z
@@ -17,7 +17,7 @@ Halo 添加了 checkstyle 插件，来保证每位提交者代码的风格保持
 
 # 配置 CheckStyle
 
-- 进入 CheckStyle 配置：File | Settings | Other Settings | Checkstyle；
+- 进入 CheckStyle 配置（File | Settings | Other Settings | Checkstyle）。
 - 在配置文件中点击添加按钮，配置描述可随便填写（建议 Halo Checks），选择 ./config/checkstyle/checkstyle.xml，点击下一步和完成；
 - 勾选刚刚创建的配置文件。
 
