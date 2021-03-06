@@ -2,7 +2,7 @@
 title: 代码风格
 description: 代码风格的相关配置说明
 published: true
-date: 2021-03-06T02:02:39.730Z
+date: 2021-03-06T02:02:50.051Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-04T12:58:29.590Z
@@ -23,7 +23,7 @@ Halo 添加了 checkstyle 插件，来保证每位提交者代码的风格保持
 
 # 配置 Editor
 
-- 进入编辑器配置：File | Settings | Editor | Code Style；
+- 进入编辑器配置（File | Settings | Editor | Code Style）
 
 - 导入 checkstyle.xm 配置：
 
