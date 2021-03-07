@@ -2,7 +2,7 @@
 title: 页面变量
 description: 每个页面所返回的变量
 published: true
-date: 2021-03-07T05:20:19.598Z
+date: 2021-03-07T05:23:19.781Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:14:42.747Z
@@ -12,7 +12,7 @@ dateCreated: 2020-10-11T15:14:42.747Z
 
 访问路径：`http://yourdomain`
 
-### posts（Array）
+### posts（List）
 
 #### Tabs {.tabset}
 ##### 语法
@@ -635,7 +635,7 @@ ${metas.key}
 
 访问路径不固定，视固定链接配置而定，默认为：`http://yourdomain/archives`
 
-### posts（Object）
+### posts（List）
 
 ### archives（List）
 
@@ -649,7 +649,7 @@ ${metas.key}
 
 访问路径不固定，视固定链接配置而定，默认为：`http://yourdomain/categories/{slug}`
 
-### posts（Object）
+### posts（List）
 
 #### Tabs {.tabset}
 ##### 语法
@@ -797,7 +797,7 @@ ${category.attribute}
 
 访问路径不固定，视固定链接配置而定，默认为：`http://yourdomain/tags/{slug}`
 
-### posts（Object）
+### posts（List）
 
 #### Tabs {.tabset}
 ##### 语法
@@ -955,7 +955,7 @@ ${keyword!}
 搜索关键字为：${keyword!}
 ```
 
-### posts（Object）
+### posts（List）
 
 #### Tabs {.tabset}
 ##### 语法
@@ -1064,10 +1064,10 @@ ${keyword!}
 
 访问路径不固定，视固定链接配置而定，默认为：`http://yourdomain/photos`
 
-### photos（Object）
+### photos（List）
 
 ## 日志页面（journals.ftl）
 
 访问路径不固定，视固定链接配置而定，默认为：`http://yourdomain/journals`
 
-### journals（Object）
+### journals（List）
