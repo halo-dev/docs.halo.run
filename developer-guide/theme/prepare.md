@@ -2,13 +2,14 @@
 title: 准备工作
 description: 主题开发的环境搭建
 published: true
-date: 2021-03-07T05:51:30.059Z
+date: 2021-03-07T06:04:52.882Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T02:39:41.346Z
 ---
 
 > Halo 的模板引擎为 Freemarker，建议在开发 Halo 的主题之前，先阅读一遍 Freemarker 的相关文档：<https://freemarker.apache.org>。
+{.is-info}
 
 ## 搭建开发环境
 
