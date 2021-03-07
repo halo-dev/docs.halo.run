@@ -2,7 +2,7 @@
 title: 配置文件
 description: 主题配置文件的说明
 published: true
-date: 2021-03-07T06:11:01.999Z
+date: 2021-03-07T06:11:07.415Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:12:10.695Z
@@ -211,7 +211,7 @@ general:
 
 页面取值：
 
-```
+```html
 // 获取首页标题
 
 <#if settings.index_title?? && settings.index_title != ''>
