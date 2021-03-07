@@ -2,9 +2,9 @@
 title: 全局变量
 description: 系统提供的一些全局变量
 published: true
-date: 2020-11-30T13:27:38.692Z
+date: 2021-03-07T05:54:38.963Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-10-11T15:13:43.148Z
 ---
 
@@ -122,7 +122,7 @@ ${user.avatar!}
 ${user.expireTime!}
 ```
 
-## 页面关键词
+## SEO 关键词
 
 ```
 ${meta_keywords!}
