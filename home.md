@@ -2,7 +2,7 @@
 title: 首页
 description: Halo 官方文档
 published: true
-date: 2021-01-29T15:00:33.242Z
+date: 2021-03-07T06:09:01.115Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:41:27.924Z
@@ -22,6 +22,8 @@ dateCreated: 2020-10-09T12:41:27.924Z
 {.links-list}
 
 # 开发者指南
+- [系统开发 *Halo 核心项目的开发指南*](/developer-guide/core)
+- [主题开发 *Halo 主题模板的开发指南*](/developer-guide/theme)
 - [REST API *Content API & Admin API*](https://api.halo.run)
 {.links-list}
 
