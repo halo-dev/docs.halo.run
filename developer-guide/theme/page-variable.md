@@ -2,7 +2,7 @@
 title: 页面变量
 description: 每个页面所返回的变量
 published: true
-date: 2021-03-07T05:47:49.590Z
+date: 2021-03-07T05:49:03.964Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:14:42.747Z
@@ -814,9 +814,9 @@ ${metas.key}
 
 ```html
 <#list archives.content as archive>
-	<h1>${archive.year?c}</h1>
+  <h1>${archive.year?c}</h1>
   <#list archive.posts as post>
-    <a href="${post.fullPath!}">${post.title!}</a>
+  	<a href="${post.fullPath!}">${post.title!}</a>
   </#list>
 </#list>
 ```
