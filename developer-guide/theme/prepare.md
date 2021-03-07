@@ -2,7 +2,7 @@
 title: 准备工作
 description: 主题开发的环境搭建
 published: true
-date: 2021-03-07T06:04:52.882Z
+date: 2021-03-07T06:05:12.177Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T02:39:41.346Z
@@ -18,7 +18,7 @@ dateCreated: 2020-10-11T02:39:41.346Z
 Halo 的运行可参考上述 [系统开发](/developer-guide/core/prepare)，或者直接下载打包好的程序启动，如下步骤：
 
 1. 从 [Github release](https://github.com/halo-dev/halo/releases) 或者 [https://dl.halo.run](https://dl.halo.run) 下载最新的运行包。
-2. 在终端中执行 `java -jar halo-版本号.jar --spring.profiles.active=dev`
+2. 在终端中执行 `java -jar halo.jar --spring.profiles.active=dev`
 
 启动完成之后，在电脑的用户目录即可看到 `halo-dev` 文件夹。
 
