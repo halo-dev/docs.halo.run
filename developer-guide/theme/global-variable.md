@@ -2,7 +2,7 @@
 title: 全局变量
 description: 系统提供的一些全局变量
 published: true
-date: 2021-03-07T05:58:31.821Z
+date: 2021-03-07T06:01:08.183Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:13:43.148Z
@@ -248,4 +248,11 @@ ${tags_url!}
 - **is_post**：判断当前页面是否是文章页
 - **is_sheet**：判断当前页面是否是自定义页面
 - **is_archives**：判断当前页面是否是归档页面
-- **is_categories**：判断当前页面是否是分类页面
+- **is_categories**：判断当前页面是否是分类列表页面
+- **is_category**：判断当前页面是否是单个分类页面
+- **is_tags**：判断当前页面是否是标签列表页面
+- **is_tag**：判断当前页面是否是单个标签页面
+- **is_search**：判断当前页面是否是搜索结果页面
+- **is_journals**：判断当前页面是否是日志页面
+- **is_photos**：判断当前页面是否是图库页面
+- **is_links**：判断当前页面是否是友情链接页面
