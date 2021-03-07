@@ -2,7 +2,7 @@
 title: 页面变量
 description: 每个页面所返回的变量
 published: true
-date: 2021-03-07T05:31:05.902Z
+date: 2021-03-07T05:37:24.896Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:14:42.747Z
@@ -1070,7 +1070,7 @@ ${keyword!}
 ##### 语法
 
 ```html
-<#list photos.content as post>
+<#list photos.content as photo>
 // do something
 </#list>
 ```
@@ -1122,3 +1122,62 @@ ${keyword!}
 访问路径不固定，视固定链接配置而定，默认为：`http://yourdomain/journals`
 
 ### journals（List）
+
+#### Tabs {.tabset}
+##### 语法
+
+```html
+<#list journals.content as journal>
+// do something
+</#list>
+```
+
+##### 参数
+
+```json
+{
+	"content": [{
+		"commentCount": 0,
+		"content": "string",
+		"createTime": "2021-03-07T05:32:06.365Z",
+		"id": 0,
+		"likes": 0,
+		"sourceContent": "string",
+		"type": "INTIMATE"
+	}],
+	"hasContent": true,
+	"hasNext": true,
+	"hasPrevious": true,
+	"isEmpty": true,
+	"isFirst": true,
+	"page": 0,
+	"pages": 0,
+	"rpp": 0,
+	"total": 0
+}
+```
+
+##### 示例
+
+```html
+<ul>
+  <#list journals.content as journal>
+    <li>
+    	${journal.createTime?string('yyyy年MM月dd日')}：${journal.content!}
+    </li>
+  </#list>
+</ul>
+```
+
+输出：
+
+```html
+<ul>
+  <li>
+  	2021年3月7日：内容1
+  </li>
+  <li>
+  	2021年3月7日：内容2
+  </li>
+</ul>
+```
