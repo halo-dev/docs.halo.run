@@ -2,7 +2,7 @@
 title: 页面变量
 description: 每个页面所返回的变量
 published: true
-date: 2021-03-07T05:23:19.781Z
+date: 2021-03-07T05:31:05.902Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:14:42.747Z
@@ -1065,6 +1065,57 @@ ${keyword!}
 访问路径不固定，视固定链接配置而定，默认为：`http://yourdomain/photos`
 
 ### photos（List）
+
+#### Tabs {.tabset}
+##### 语法
+
+```html
+<#list photos.content as post>
+// do something
+</#list>
+```
+
+##### 参数
+
+```json
+{
+	"content": [{
+		"description": "string",
+		"id": 0,
+		"location": "string",
+		"name": "string",
+		"takeTime": "2021-03-07T05:28:12.352Z",
+		"team": "string",
+		"thumbnail": "string",
+		"url": "string"
+	}],
+	"hasContent": true,
+	"hasNext": true,
+	"hasPrevious": true,
+	"isEmpty": true,
+	"isFirst": true,
+	"page": 0,
+	"pages": 0,
+	"rpp": 0,
+	"total": 0
+}
+```
+
+##### 示例
+
+```html
+<#list photos.content as photo>
+	<img alt="${photo.description!}" src="${photo.url!}"/>
+</#list>
+```
+
+输出：
+
+```html
+<img alt="山川"  src="https://youdomain.com/upload/2021/01/1.png"/>
+<img alt="河流"  src="https://youdomain.com/upload/2021/01/2.png"/>
+<img alt="绿树"  src="https://youdomain.com/upload/2021/01/3.png"/>
+```
 
 ## 日志页面（journals.ftl）
 
