@@ -2,7 +2,7 @@
 title: 全局变量
 description: 系统提供的一些全局变量
 published: true
-date: 2021-03-07T05:54:45.725Z
+date: 2021-03-07T05:57:30.884Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:13:43.148Z
@@ -241,3 +241,8 @@ ${tags_url!}
 - **全局绝对路径为关闭的状态下**：`/{tags_prefix}`
 
 `{tags_prefix}` 是用户可设定的值，用户可以在后台修改 `标签` 的前缀，默认为 `tags`。
+
+## 页面判断
+
+- **is_index**：判断当前页面是否是首页
+- **is_post**：判断当前页面是否是文章页
