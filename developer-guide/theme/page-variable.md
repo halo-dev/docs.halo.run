@@ -2,7 +2,7 @@
 title: 页面变量
 description: 每个页面所返回的变量
 published: true
-date: 2021-03-04T12:45:47.894Z
+date: 2021-03-07T05:20:19.598Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:14:42.747Z
@@ -753,9 +753,39 @@ ${metas.key}
 #### Tabs {.tabset}
 ##### 语法
 
+```html
+${category.attribute}
+```
+
+注：attribute 代表具体属性。
+
 ##### 参数
 
+```json
+{
+	"createTime": "2020-10-11T05:59:40.622Z",
+	"description": "string",
+	"fullPath": "string",
+	"id": 0,
+	"name": "string",
+	"parentId": 0,
+	"slug": "string",
+	"thumbnail": "string",
+	"postCount": 0
+}
+```
+
 ##### 示例
+
+```html
+<a href="${category.fullPath!}">分类：${category.name!}</a>
+```
+
+输出：
+
+```html
+<a href="http://localhost:8090/categories/url1">分类：name1</a>
+```
 
 ## 标签页面（tags.ftl）
 
@@ -871,9 +901,36 @@ ${metas.key}
 #### Tabs {.tabset}
 ##### 语法
 
+```html
+${tag.attribute}
+```
+
+注：attribute 代表具体属性。
+
 ##### 参数
 
+```json
+{
+	"createTime": "2020-10-11T06:14:30.595Z",
+	"fullPath": "string",
+	"id": 0,
+	"name": "string",
+	"slug": "string",
+	"thumbnail": "string"
+}
+```
+
 ##### 示例
+
+```html
+<a href="${tag.fullPath!}">标签：${tag.name!}</a>
+```
+
+输出：
+
+```html
+<a href="http://localhost:8090/tags/url1">标签：name1</a>
+```
 
 ## 文章搜索结果页面（search.ftl）
 
