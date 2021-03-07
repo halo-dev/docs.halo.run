@@ -2,7 +2,7 @@
 title: 配置文件
 description: 主题配置文件的说明
 published: true
-date: 2021-03-07T05:52:45.136Z
+date: 2021-03-07T06:06:28.474Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:12:10.695Z
@@ -32,8 +32,7 @@ sheetMetaField:
   - meta_key                页面自定义 meta 变量
 ```
 
-<details>
-<summary>theme.yaml 实例</summary>
+示例：
 
 ```yaml
 id: caicai_anatole
