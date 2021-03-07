@@ -2,7 +2,7 @@
 title: 配置文件
 description: 主题配置文件的说明
 published: true
-date: 2021-03-07T06:06:28.474Z
+date: 2021-03-07T06:10:44.071Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:12:10.695Z
@@ -258,7 +258,7 @@ general:
 </#if>
 ```
 
-```
+```html
 // 获取代码高亮主题
 
 <link rel="stylesheet" type="text/css" href="${theme_base!}/assets/prism/css/prism-${settings.code_pretty!'Default'}.css" />
