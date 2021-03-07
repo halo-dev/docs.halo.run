@@ -2,7 +2,7 @@
 title: 模板标签
 description: 用于获取数据的模板标签
 published: true
-date: 2021-03-07T05:30:17.433Z
+date: 2021-03-07T05:30:41.311Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T05:09:17.676Z
@@ -1928,7 +1928,7 @@ photos:
 ```html
 <@photoTag method="list">
     <#list photos as photo>
-        <img alt="${photo.description}"  src="${photo.url}"/>
+        <img alt="${photo.description}" src="${photo.url}"/>
     </#list>
 </@photoTag>
 ```
@@ -1936,9 +1936,9 @@ photos:
 输出：
 
 ```html
-<img alt="山川"  src="https://youdomain.com/upload/2021/01/1.png"/>
-<img alt="河流"  src="https://youdomain.com/upload/2021/01/2.png"/>
-<img alt="绿树"  src="https://youdomain.com/upload/2021/01/3.png"/>
+<img alt="山川" src="https://youdomain.com/upload/2021/01/1.png"/>
+<img alt="河流" src="https://youdomain.com/upload/2021/01/2.png"/>
+<img alt="绿树" src="https://youdomain.com/upload/2021/01/3.png"/>
 ```
 
 ### 获取所有分组图片（listTeams）
@@ -1984,7 +1984,7 @@ teams:
 	<#list teams as team>
 		<h1>${team.team}</h1>
     <#list team.photos as photo>
-        <img alt="${photo.description}"  src="${photo.url}"/>
+        <img alt="${photo.description}" src="${photo.url}"/>
     </#list>
 	</#list>
 </@photoTag>
@@ -2044,7 +2044,7 @@ photos:
 ```html
 <@photoTag method="listTeams" team="风景">
   <#list team.photos as photo>
-  	<img alt="${photo.description}"  src="${photo.url}"/>
+  	<img alt="${photo.description}" src="${photo.url}"/>
   </#list>
 </@photoTag>
 ```
