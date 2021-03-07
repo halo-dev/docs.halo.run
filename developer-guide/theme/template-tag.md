@@ -2,7 +2,7 @@
 title: 模板标签
 description: 用于获取数据的模板标签
 published: true
-date: 2021-03-07T05:30:05.465Z
+date: 2021-03-07T05:30:17.433Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T05:09:17.676Z
@@ -2052,9 +2052,9 @@ photos:
 输出：
 
 ```html
-<img alt="山川"  src="https://youdomain.com/upload/2021/01/1.png"/>
-<img alt="河流"  src="https://youdomain.com/upload/2021/01/2.png"/>
-<img alt="绿树"  src="https://youdomain.com/upload/2021/01/3.png"/>
+<img alt="山川" src="https://youdomain.com/upload/2021/01/1.png"/>
+<img alt="河流" src="https://youdomain.com/upload/2021/01/2.png"/>
+<img alt="绿树" src="https://youdomain.com/upload/2021/01/3.png"/>
 ```
 
 ### 获取所有图片的数量（count）
