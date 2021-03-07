@@ -2,7 +2,7 @@
 title: 配置文件
 description: 主题配置文件的说明
 published: true
-date: 2021-03-07T06:10:55.169Z
+date: 2021-03-07T06:11:01.999Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:12:10.695Z
@@ -219,7 +219,7 @@ general:
 </#if>
 ```
 
-```
+```html
 // 获取背景图片
 
 <#if settings.background_cover?? && settings.background_cover != ''>
