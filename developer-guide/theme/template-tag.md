@@ -2,9 +2,9 @@
 title: 模板标签
 description: 用于获取数据的模板标签
 published: true
-date: 2021-01-10T13:28:29.881Z
+date: 2021-03-07T05:30:05.465Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-10-11T05:09:17.676Z
 ---
 
@@ -1994,13 +1994,13 @@ teams:
 
 ```html
 <h1>风景</h1>
-<img alt="山川"  src="https://youdomain.com/upload/2021/01/1.png"/>
-<img alt="河流"  src="https://youdomain.com/upload/2021/01/2.png"/>
-<img alt="绿树"  src="https://youdomain.com/upload/2021/01/3.png"/>
+<img alt="山川" src="https://youdomain.com/upload/2021/01/1.png"/>
+<img alt="河流" src="https://youdomain.com/upload/2021/01/2.png"/>
+<img alt="绿树" src="https://youdomain.com/upload/2021/01/3.png"/>
 <h1>旅行</h1>
-<img alt="四川"  src="https://youdomain.com/upload/2021/02/1.png"/>
-<img alt="重庆"  src="https://youdomain.com/upload/2021/02/2.png"/>
-<img alt="深圳"  src="https://youdomain.com/upload/2021/02/3.png"/>
+<img alt="四川" src="https://youdomain.com/upload/2021/02/1.png"/>
+<img alt="重庆" src="https://youdomain.com/upload/2021/02/2.png"/>
+<img alt="深圳" src="https://youdomain.com/upload/2021/02/3.png"/>
 ```
 
 ### 根据分组获取图片（listByTeam）
