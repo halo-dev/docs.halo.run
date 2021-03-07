@@ -2,7 +2,7 @@
 title: 配置文件
 description: 主题配置文件的说明
 published: true
-date: 2021-03-07T06:10:44.071Z
+date: 2021-03-07T06:10:49.229Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:12:10.695Z
@@ -250,7 +250,7 @@ general:
 
 ```
 
-```
+```html
 // 判断是否开启背景音乐
 
 <#if settings.music_enabled!false>
