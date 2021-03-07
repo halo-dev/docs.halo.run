@@ -2,7 +2,7 @@
 title: 页面变量
 description: 每个页面所返回的变量
 published: true
-date: 2021-03-07T05:37:24.896Z
+date: 2021-03-07T05:47:49.590Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:14:42.747Z
@@ -637,7 +637,202 @@ ${metas.key}
 
 ### posts（List）
 
+#### Tabs {.tabset}
+##### 语法
+
+```html
+<#list posts.content as post>
+// do something
+</#list>
+```
+
+##### 参数
+
+```json
+[{
+	"content": [{
+		"categories": [{
+			"createTime": "2020-10-13T13:23:39.143Z",
+			"description": "string",
+			"fullPath": "string",
+			"id": 0,
+			"name": "string",
+			"parentId": 0,
+			"slug": "string",
+			"thumbnail": "string"
+		}],
+		"commentCount": 0,
+		"createTime": "2020-10-13T13:23:39.143Z",
+		"disallowComment": true,
+		"editTime": "2020-10-13T13:23:39.143Z",
+		"editorType": "MARKDOWN",
+		"fullPath": "string",
+		"id": 0,
+		"likes": 0,
+		"metaDescription": "string",
+		"metaKeywords": "string",
+		"metas": {},
+		"password": "string",
+		"slug": "string",
+		"status": "PUBLISHED",
+		"summary": "string",
+		"tags": [{
+			"createTime": "2020-10-13T13:23:39.143Z",
+			"fullPath": "string",
+			"id": 0,
+			"name": "string",
+			"slug": "string",
+			"thumbnail": "string"
+		}],
+		"template": "string",
+		"thumbnail": "string",
+		"title": "string",
+		"topPriority": 0,
+		"topped": true,
+		"updateTime": "2020-10-13T13:23:39.143Z",
+		"visits": 0,
+		"wordCount": 0
+	}],
+	"empty": true,
+	"first": true,
+	"last": true,
+	"number": 0,
+	"numberOfElements": 0,
+	"pageable": {
+		"page": 0,
+		"size": 0,
+		"sort": [
+			"string"
+		]
+	},
+	"size": 0,
+	"sort": {
+		"sort": [
+			"string"
+		]
+	},
+	"totalElements": 0,
+	"totalPages": 0
+}]
+```
+
+##### 示例
+
+遍历输出归档页面的文章（无年份分组）：
+
+```html
+<#list posts.content as post>
+	<a href="${post.fullPath!}">${post.title!}</a>
+</#list>
+```
+
+输出：
+
+```html
+<a href="http://localhost:8090/archives/url1">title1</a>
+<a href="http://localhost:8090/archives/url2">title2</a>
+<a href="http://localhost:8090/archives/url3">title3</a>
+```
+
 ### archives（List）
+
+#### Tabs {.tabset}
+##### 语法
+
+```html
+<#list archives.content as archive>
+// do something
+</#list>
+```
+
+##### 参数
+
+```json
+{
+	"content": [{
+		"posts": [{
+			"categories": [{
+				"createTime": "2021-03-07T05:45:06.271Z",
+				"description": "string",
+				"fullPath": "string",
+				"id": 0,
+				"name": "string",
+				"parentId": 0,
+				"password": "string",
+				"slug": "string",
+				"thumbnail": "string"
+			}],
+			"commentCount": 0,
+			"createTime": "2021-03-07T05:45:06.271Z",
+			"disallowComment": true,
+			"editTime": "2021-03-07T05:45:06.271Z",
+			"editorType": "MARKDOWN",
+			"fullPath": "string",
+			"id": 0,
+			"likes": 0,
+			"metaDescription": "string",
+			"metaKeywords": "string",
+			"metas": {},
+			"password": "string",
+			"slug": "string",
+			"status": "DRAFT",
+			"summary": "string",
+			"tags": [{
+				"createTime": "2021-03-07T05:45:06.271Z",
+				"fullPath": "string",
+				"id": 0,
+				"name": "string",
+				"slug": "string",
+				"thumbnail": "string"
+			}],
+			"template": "string",
+			"thumbnail": "string",
+			"title": "string",
+			"topPriority": 0,
+			"topped": true,
+			"updateTime": "2021-03-07T05:45:06.271Z",
+			"visits": 0,
+			"wordCount": 0
+		}],
+		"year": 0
+	}],
+	"hasContent": true,
+	"hasNext": true,
+	"hasPrevious": true,
+	"isEmpty": true,
+	"isFirst": true,
+	"page": 0,
+	"pages": 0,
+	"rpp": 0,
+	"total": 0
+}
+```
+
+##### 示例
+
+遍历输出归档页面的文章（有年份分组）：
+
+```html
+<#list archives.content as archive>
+	<h1>${archive.year?c}</h1>
+  <#list archive.posts as post>
+    <a href="${post.fullPath!}">${post.title!}</a>
+  </#list>
+</#list>
+```
+
+输出：
+
+```html
+<h1>2021</h1>
+<a href="http://localhost:8090/archives/url1">title1</a>
+<a href="http://localhost:8090/archives/url2">title2</a>
+<a href="http://localhost:8090/archives/url3">title3</a>
+<h1>2020</h1>
+<a href="http://localhost:8090/archives/url4">title4</a>
+<a href="http://localhost:8090/archives/url5">title5</a>
+<a href="http://localhost:8090/archives/url6">title6</a>
+```
 
 ## 分类目录页面（categories.ftl）
 
