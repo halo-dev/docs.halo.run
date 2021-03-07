@@ -2,7 +2,7 @@
 title: 全局变量
 description: 系统提供的一些全局变量
 published: true
-date: 2021-03-07T05:54:38.963Z
+date: 2021-03-07T05:54:45.725Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:13:43.148Z
@@ -135,7 +135,7 @@ ${meta_keywords!}
 - 如果用户为文章设置了标签，而没有设置 `自定义关键词`，系统会自动将标签设置为页面关键词。
 - 如果用户设置了 `自定义关键词`，那么则会取用户设置的值。
 
-## 页面描述
+## SEO 描述
 
 ```
 ${meta_description!}
