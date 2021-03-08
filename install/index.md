@@ -2,7 +2,7 @@
 title: 安装指南
 description: 简要部署指南，以及部分系统的详细部署流程
 published: true
-date: 2021-03-08T05:47:03.040Z
+date: 2021-03-08T05:47:19.791Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:53:25.248Z
@@ -30,5 +30,5 @@ dateCreated: 2020-10-09T12:53:25.248Z
 
 - [Halo 博客安装教程，一款优秀的 Java 开源博客系统](https://www.cnblogs.com/bronya0/p/14198512.html)
 {.links-list}
-- [Halo 博客安装教程，一款优秀的 Java 开源博客系统 *Bilibili*](https://www.cnblogs.com/bronya0/p/14198512.html)
+- [如何用服务器优雅地搭建一个博客—Hello,Halo! *Bilibili*](https://www.bilibili.com/video/BV1JN411Q7Na/)
 {.links-list}
