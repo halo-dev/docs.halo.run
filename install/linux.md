@@ -2,7 +2,7 @@
 title: 在 Linux 环境部署
 description: 在Linux上快速安装Halo
 published: true
-date: 2021-03-07T14:48:51.378Z
+date: 2021-03-12T14:10:13.018Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:51:55.006Z
@@ -14,13 +14,49 @@ dateCreated: 2020-10-09T12:51:55.006Z
 # 依赖检查
 目前运行 Halo 的最低依赖要求为 JRE 11，请务必确保在进行下面操作之前已经正确安装了 JRE。
 
-检查 JRE 版本：
+目前介绍两种 Linux 发行版的安装方式，均为 OpenJRE，不推荐 Oracle 版本。
+
+# Tabs {.tabset}
+
+## CentOS <i class="mdi mdi-centos"></i>
+
+```bash
+sudo yum install java-11-openjdk -y
+```
+
+检查版本：
 
 ```bash
 java -version
 ```
 
-如果正确输出了 JRE 的版本，那么请继续进行下面的操作。此文档不会包含 JRE 的具体安装方式。
+如果输出以下类似内容即代表成功
+
+```bash
+openjdk version "11.0.10" 2021-01-19 LTS
+OpenJDK Runtime Environment 18.9 (build 11.0.10+9-LTS)
+OpenJDK 64-Bit Server VM 18.9 (build 11.0.10+9-LTS, mixed mode, sharing)
+```
+
+## Ubuntu <i class="mdi mdi-ubuntu"></i>
+
+```bash
+sudo apt-get install openjdk-11-jre
+```
+
+检查版本：
+
+```bash
+java -version
+```
+
+如果输出以下类似内容即代表成功
+
+```bash
+openjdk version "11.0.10" 2021-01-19
+OpenJDK Runtime Environment (build 11.0.10+9-Ubuntu-0ubuntu1.20.04)
+OpenJDK 64-Bit Server VM (build 11.0.10+9-Ubuntu-0ubuntu1.20.04, mixed mode)
+```
 
 # 安装
 
