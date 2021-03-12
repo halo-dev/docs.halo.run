@@ -2,7 +2,7 @@
 title: 在 Linux 环境部署
 description: 在Linux上快速安装Halo
 published: true
-date: 2021-03-12T14:10:13.018Z
+date: 2021-03-12T14:10:49.708Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:51:55.006Z
@@ -41,7 +41,7 @@ OpenJDK 64-Bit Server VM 18.9 (build 11.0.10+9-LTS, mixed mode, sharing)
 ## Ubuntu <i class="mdi mdi-ubuntu"></i>
 
 ```bash
-sudo apt-get install openjdk-11-jre
+sudo apt-get install openjdk-11-jre -y
 ```
 
 检查版本：
