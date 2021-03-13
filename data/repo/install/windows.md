@@ -2,7 +2,7 @@
 title: 在 Windows 服务器上部署
 description: 
 published: true
-date: 2021-03-13T07:01:01.294Z
+date: 2021-03-13T07:35:28.808Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:52:31.360Z
@@ -16,7 +16,7 @@ dateCreated: 2020-10-09T12:52:31.360Z
 # 依赖检查
 如下将介绍在 Windows 下安装 OpenJRE 11 的方式。如果您的服务器已经安装过 OpenJRE 11，则可以直接跳过本节。
 
-1. 前往 https://developers.redhat.com/content-gateway/file/java-11-openjdk-jre-11.0.10.9-1.windows.redhat.x86_64.msi 下载 OpenJRE 11 的可执行程序。
+1. 使用浏览器前往 https://developers.redhat.com/content-gateway/file/java-11-openjdk-jre-11.0.10.9-1.windows.redhat.x86_64.msi 下载 OpenJRE 11 的可执行程序。
 
 2. 下载时会提示登录“红帽”，任意注册账号登录即可。登录完成之后会自动下载 JRE。
 
@@ -24,7 +24,7 @@ dateCreated: 2020-10-09T12:52:31.360Z
 
 ![img2.png](/images/img2.png)
 
-4. 安装完成之后， 使用 <kbd>Win</kbd>+<kbd>R</kbd> 打开运行窗口并输入 `CMD` 点击运行打开 CMD 窗口。之后键入 `java -version`。显示如下所示内容即代表安装成功。
+4. 安装完成之后， 使用 <kbd>Win</kbd>+<kbd>R</kbd> 打开运行窗口并输入 `CMD` 后，回车打开 CMD 窗口。之后键入 `java -version`。显示如下所示内容即代表安装成功。
 ```
 openjdk version "11.0.10" 2021-01-19 LTS
 OpenJDK Runtime Environment 18.9 (build 11.0.10+9-LTS)
@@ -34,4 +34,26 @@ OpenJDK 64-Bit Server VM 18.9 (build 11.0.10+9-LTS, mixed mode)
 ![1615618595.jpg](/images/1615618595.jpg)
 
 # 安装 Halo
+1. 下载运行包
+
+使用浏览器前往 https://dl.halo.run/release/halo-1.4.6.jar 下载最新版本 Halo 运行包，**并保存至桌面**。修改 Jar 包名称为 `halo.jar`
+
+> 如果下载速度不理想，可以[在这里](/install/downloads)选择其他下载地址。
+{.is-info}
+
+2. 下载示例配置文件
+
+使用浏览器前往 https://dl.halo.run/config/application-template.yaml 下载示例配置文件，**并保存至桌面**。修改示例配置文件名字为 `application.yaml`。
+
+> IE 浏览器下，配置文件可能会以文本的形式直接打开，因此推荐使用其他浏览器或下载器下载。
+{.is-warning}
+
+3. 使用记事本编辑配置文件，配置数据库或者端口等，如需配置请参考[参考配置](/install/config)
+
+4. 测试运行 Halo
+
+使用 <kbd>Win</kbd>+<kbd>R</kbd> 打开运行窗口并输入 `CMD` 后，回车打开 CMD 窗口，并键入如下命令。
+```
+
+```
 
