@@ -2,7 +2,7 @@
 title: 在 Windows 服务器上部署
 description: 
 published: true
-date: 2021-03-13T06:43:47.159Z
+date: 2021-03-13T06:59:27.734Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:52:31.360Z
@@ -20,5 +20,17 @@ dateCreated: 2020-10-09T12:52:31.360Z
 
 2. 下载时会提示登录“红帽”，任意注册账号登录即可。登录完成之后会自动下载 JRE。
 
-3. 双击 MSI 安装程序，安装 JRE 至服务器，注意到安装程序第三步时，勾选 `JAVA_HOME Variable`。
+3. 双击 MSI 安装程序，安装 JRE 至服务器，注意到安装程序第三步时，勾选 `JAVA_HOME Variable`，其余直接 `next` 即可
 
+![img2.png](/images/img2.png)
+
+4. 安装完成之后， 使用 <kbd>Win</kbd>+<kbd>R</kbd> 打开运行窗口并输入 `CMD` 点击运行打开 CMD 窗口。之后键入 `java -version`。显示如下所示内容即代表安装成功。
+```
+openjdk version "11.0.10" 2021-01-19 LTS
+OpenJDK Runtime Environment 18.9 (build 11.0.10+9-LTS)
+OpenJDK 64-Bit Server VM 18.9 (build 11.0.10+9-LTS, mixed mode)
+```
+
+![1615618595.jpg](/images/1615618595.jpg)
+
+# 安装
