@@ -2,7 +2,7 @@
 title: 在 Windows 服务器上部署
 description: 
 published: true
-date: 2021-03-13T07:35:28.808Z
+date: 2021-03-13T07:54:05.930Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:52:31.360Z
@@ -54,6 +54,20 @@ OpenJDK 64-Bit Server VM 18.9 (build 11.0.10+9-LTS, mixed mode)
 
 使用 <kbd>Win</kbd>+<kbd>R</kbd> 打开运行窗口并输入 `CMD` 后，回车打开 CMD 窗口，并键入如下命令。
 ```
-
+cd Desktop && java -jar halo.jar
 ```
+
+5. 如看到类似以下日志输出，则代表启动成功。
+```bash
+run.halo.app.listener.StartedListener    : Halo started at         http://127.0.0.1:8090
+run.halo.app.listener.StartedListener    : Halo admin started at   http://127.0.0.1:8090/admin
+run.halo.app.listener.StartedListener    : Halo has started successfully!
+```
+浏览器打开 `http://ip:端口号` 即可看到安装引导界面。
+
+> 如测试启动正常，请继续看`作为服务运行`部分，第 4 ~ 5 步仅仅作为测试。当你关闭 CMD 窗口之后，服务会停止。你可使用 <kbd>CTRL</kbd>+<kbd>C</kbd> 停止运行测试进程。
+{.is-info}
+
+> 如果需要配置域名访问，建议先配置好反向代理以及域名解析再进行初始化。如果通过 `http://ip:端口号` 的形式无法访问，请到服务器厂商后台将运行的端口号添加到安全组，如果服务器使用了 Linux 面板，请检查此 Linux 面板是否有还有安全组配置，需要同样将端口号添加到安全组。
+{.is-warning}
 
