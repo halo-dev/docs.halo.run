@@ -2,7 +2,7 @@
 title: 在 Windows 服务器上部署
 description: 
 published: true
-date: 2021-03-13T06:59:27.734Z
+date: 2021-03-13T07:01:01.294Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:52:31.360Z
@@ -33,4 +33,5 @@ OpenJDK 64-Bit Server VM 18.9 (build 11.0.10+9-LTS, mixed mode)
 
 ![1615618595.jpg](/images/1615618595.jpg)
 
-# 安装
+# 安装 Halo
+
