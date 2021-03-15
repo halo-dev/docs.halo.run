@@ -2,7 +2,7 @@
 title: 写在前面
 description: 在开始前，您需要了解的事项
 published: true
-date: 2021-02-21T02:05:25.943Z
+date: 2021-03-15T09:30:48.332Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:51:03.801Z
@@ -78,6 +78,7 @@ create database halodb character set utf8mb4 collate utf8mb4_bin;
 
 - 阿里云：[https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=3t6v5x0v](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=3t6v5x0v)
 - 腾讯云：[https://curl.qcloud.com/7VVMd37R](https://curl.qcloud.com/7VVMd37R)
+- Vultr：[https://www.vultr.com/?ref=7278289](https://www.vultr.com/?ref=7278289)
 
 # 浏览器支持
 
