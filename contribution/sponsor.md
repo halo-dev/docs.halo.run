@@ -2,7 +2,7 @@
 title: 赞助我们
 description: 如果 Halo 对您有帮助，不妨赞助我们
 published: true
-date: 2021-03-13T06:57:46.747Z
+date: 2021-03-15T09:30:30.445Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-26T16:33:09.606Z
@@ -37,4 +37,5 @@ dateCreated: 2021-01-26T16:33:09.606Z
 
 - 阿里云：[https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=3t6v5x0v](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=3t6v5x0v)
 - 腾讯云：[https://curl.qcloud.com/7VVMd37R](https://curl.qcloud.com/7VVMd37R)
+- Vultr：[https://www.vultr.com/?ref=7278289](https://www.vultr.com/?ref=7278289)
 
