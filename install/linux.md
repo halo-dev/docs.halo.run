@@ -2,7 +2,7 @@
 title: 在 Linux 环境部署
 description: 在Linux上快速安装Halo
 published: true
-date: 2021-03-12T14:10:49.708Z
+date: 2021-03-14T05:09:31.539Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:51:55.006Z
@@ -93,7 +93,7 @@ mkdir ~/app && cd ~/app
 
 3. 下载运行包
 ```bash
-wget https://dl.halo.run/release/halo-1.4.6.jar -O halo.jar
+wget https://dl.halo.run/release/halo-1.4.7.jar -O halo.jar
 ```
 
 > 如果下载速度不理想，可以[在这里](/install/downloads)选择其他下载地址。
@@ -225,6 +225,8 @@ server {
   }
 }
 ```
+
+注意：Nginx 默认的 `client_max_body_size` 配置大小为 1m，可能会导致你在 Halo 后台上传文件被 Nginx 限制，所以此示例配置文件加上了 `client_max_body_size 1024m;` 这行配置。当然，1024m 可根据你的需要自行修改。
 
 ## Caddy 1.x
 

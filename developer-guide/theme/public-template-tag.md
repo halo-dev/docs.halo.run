@@ -4,7 +4,7 @@ description: 系统提供的一些宏模板
 published: true
 date: 2020-11-30T13:27:43.236Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-10-11T15:15:22.987Z
 ---
 

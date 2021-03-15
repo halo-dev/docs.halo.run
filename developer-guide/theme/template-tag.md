@@ -2,7 +2,7 @@
 title: 模板标签
 description: 用于获取数据的模板标签
 published: true
-date: 2021-03-07T05:30:41.311Z
+date: 2021-03-07T05:30:46.455Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T05:09:17.676Z

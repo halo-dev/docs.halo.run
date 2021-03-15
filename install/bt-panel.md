@@ -4,7 +4,7 @@ description: 与宝塔面板配合使用的指南
 published: true
 date: 2021-01-24T09:45:07.789Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2021-01-05T12:21:13.846Z
 ---
 

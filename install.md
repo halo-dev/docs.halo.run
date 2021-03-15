@@ -2,7 +2,7 @@
 title: 入门
 description: 如果您是第一次了解到 Halo，推荐先浏览下列指南
 published: true
-date: 2021-02-20T06:18:10.599Z
+date: 2021-02-20T06:18:13.677Z
 tags: 
 editor: markdown
 dateCreated: 2020-11-13T15:12:33.974Z
