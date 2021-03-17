@@ -2,7 +2,7 @@
 title: 在 Windows 服务器上部署
 description: 
 published: true
-date: 2021-03-15T06:27:56.604Z
+date: 2021-03-17T01:52:12.884Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:52:31.360Z
@@ -70,6 +70,4 @@ run.halo.app.listener.StartedListener    : Halo has started successfully!
 
 > 如果需要配置域名访问，建议先配置好反向代理以及域名解析再进行初始化。如果通过 `http://ip:端口号` 的形式无法访问，请到服务器厂商后台将运行的端口号添加到安全组，如果服务器使用了 Linux 面板，请检查此 Linux 面板是否有还有安全组配置，需要同样将端口号添加到安全组。
 {.is-warning}
-
-test
 
