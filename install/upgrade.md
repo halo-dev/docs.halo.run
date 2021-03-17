@@ -2,7 +2,7 @@
 title: 版本升级
 description: 版本升级指南
 published: true
-date: 2021-03-17T13:22:13.161Z
+date: 2021-03-17T13:25:31.183Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:53:58.281Z
@@ -94,6 +94,8 @@ service halo start
 
 
 ## Docker <i class="mdi mdi-docker"></i>
+
+> 我们假设您的容器是按照 [使用 Docker 部署 Halo](https://docs.halo.run/install/docker) 中的命令构建的。如有不同，请根据实际情况修改。
 
 1. 停止并删除当前运行中的容器
 
