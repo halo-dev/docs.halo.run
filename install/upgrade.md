@@ -2,7 +2,7 @@
 title: 版本升级
 description: 版本升级指南
 published: true
-date: 2021-03-14T05:09:52.015Z
+date: 2021-03-17T13:20:24.136Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:53:58.281Z
@@ -14,6 +14,8 @@ dateCreated: 2020-10-09T12:53:58.281Z
 ## Linux <i class="mdi mdi-ubuntu"></i>
 
 > 我们假设您存放运行包的路径为 `~/app`，运行包的文件名为 `halo.jar`，如有不同，下列命令请按需修改。
+
+---
 
 > 从 1.4.3 开始，Halo 最低支持的 JRE 版本为 11，在升级前，请务必先升级 JRE。
 {.is-warning}
@@ -46,6 +48,8 @@ yum remove java-1.8.0-openjdk-headless-1.8.0.275.b01-1.el8_3.x86_64
 ```bash
 yum install java-11-openjdk -y
 ```
+
+---
 
 1. 停止正在运行的服务
 
