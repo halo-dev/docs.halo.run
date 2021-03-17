@@ -2,7 +2,7 @@
 title: 版本升级
 description: 版本升级指南
 published: true
-date: 2021-03-17T13:25:31.183Z
+date: 2021-03-17T13:26:36.502Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:53:58.281Z
@@ -110,7 +110,13 @@ docker rm -f halo
 > 你的容器名称不一定为 `halo`，在执行前可以先执行 `docker ps -a` 查看一下。
 {.is-info}
 
-2. 拉取最新的 Halo 镜像
+2. 备份数据（重要）
+
+```bash
+cp -r ~/.halo ~/.halo.1.4.6
+```
+
+3. 拉取最新的 Halo 镜像
 
 ```bash
 docker pull halohub/halo
@@ -122,7 +128,7 @@ docker pull halohub/halo
 > 从 1.4.3 开始，Docker 镜像已经转移到 `halohub` 组织，不再是 `ruibaby/halo`
 {.is-info}
 
-3. 创建容器
+4. 创建容器
 
 ```bash
 docker run -it -d --name halo -p 8090:8090 -v ~/.halo:/root/.halo --restart=always halohub/halo
