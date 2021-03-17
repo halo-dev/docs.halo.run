@@ -2,7 +2,7 @@
 title: 版本升级
 description: 版本升级指南
 published: true
-date: 2021-03-17T13:20:24.136Z
+date: 2021-03-17T13:22:13.161Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:53:58.281Z
@@ -57,14 +57,14 @@ yum install java-11-openjdk -y
 service halo stop
 ```
 
-2. 备份数据以及旧的运行包
+2. 备份数据以及旧的运行包（重要）
 
 ```bash
-cp -r ~/.halo ~/.halo.bak
+cp -r ~/.halo ~/.halo.1.4.6
 ```
 
 ```bash
-cd ~/app && mv halo.jar halo.jar.bak
+cd ~/app && mv halo.jar halo.jar.1.4.6
 ```
 
 3. 下载最新版本的运行包
