@@ -2,7 +2,7 @@
 title: 写在前面
 description: 在开始前，您需要了解的事项
 published: true
-date: 2021-03-15T09:30:48.332Z
+date: 2021-03-19T06:06:15.346Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:51:03.801Z
@@ -103,4 +103,5 @@ create database halodb character set utf8mb4 collate utf8mb4_bin;
 2. `templates/themes`：里面包含用户所下载的主题。
 3. `static`：相当于网站的根目录。
 4. `logs`：运行日志目录。
+4. `upload`：附件目录。
 5. `application.yaml`：配置文件。
