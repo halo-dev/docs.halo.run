@@ -2,7 +2,7 @@
 title: 资源下载
 description: 列出目前所有 Halo 相关的下载地址
 published: true
-date: 2021-03-22T09:35:52.394Z
+date: 2021-03-22T09:36:53.406Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-27T13:01:44.286Z
@@ -37,4 +37,4 @@ dateCreated: 2020-12-27T13:01:44.286Z
 - [https://halo.doubiya.com *此站点包含所有 Halo 版本的运行包以及配置文件*](https://halo.doubiya.com)
 {.links-list}
 
-此镜像源由 []() 提供并维护。
+此镜像源由不愿意透露姓名热心网友提供并维护。
