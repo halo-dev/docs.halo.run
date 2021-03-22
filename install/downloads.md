@@ -2,7 +2,7 @@
 title: 资源下载
 description: 列出目前所有 Halo 相关的下载地址
 published: true
-date: 2020-12-28T13:50:39.487Z
+date: 2021-03-22T09:35:41.088Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-27T13:01:44.286Z
@@ -30,6 +30,11 @@ dateCreated: 2020-12-27T13:01:44.286Z
 此镜像源由 [新逸Cary](https://blog.xinac.cn) 提供并维护。
 
 - [https://jar.oren.ink *此站点包含所有 Halo 版本的运行包以及配置文件*](https://jar.oren.ink)
+{.links-list}
+
+此镜像源由 [Oren Zhang](https://halo.oren.ink) 提供并维护。
+
+- [https://halo.doubiya.com *此站点包含所有 Halo 版本的运行包以及配置文件*](https://halo.doubiya.com)
 {.links-list}
 
 此镜像源由 [Oren Zhang](https://halo.oren.ink) 提供并维护。
