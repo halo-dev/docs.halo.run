@@ -2,7 +2,7 @@
 title: 配置参考
 description: Halo 配置文件的详细介绍及参考
 published: true
-date: 2021-02-01T14:19:58.783Z
+date: 2021-03-25T13:12:12.313Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-16T07:12:17.629Z
@@ -30,6 +30,9 @@ server:
 
 ## 数据库
 Halo 目前支持 `H2` 及 `MySQL` 数据库。
+
+> 得益于我们使用的 ORM 框架，Halo 在首次启动的时候会自动根据实体类创建表结构，无需通过 SQL 脚本自行创建，也不会提供所谓的 SQL 脚本。所以，此步骤仅需配置好数据库连接地址和用户名密码即可。注意，H2 无需创建数据库，MySQL 需要。
+
 ### Tabset {.tabset}
 
 #### H2
