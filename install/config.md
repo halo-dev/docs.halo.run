@@ -2,7 +2,7 @@
 title: 配置参考
 description: Halo 配置文件的详细介绍及参考
 published: true
-date: 2021-03-25T13:12:37.439Z
+date: 2021-03-26T01:18:52.777Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-16T07:12:17.629Z
@@ -78,6 +78,7 @@ spring:
 1. 版本：5.7 +
 2. 字符集（Character Set）：`utf8mb4`
 3. 排序规则（Collate）：`utf8mb4_bin`
+4. 存储引擎：`InnoDB`
 
 综上，建议创建数据库采用下面的命令：
 
