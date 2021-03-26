@@ -2,7 +2,7 @@
 title: 写在前面
 description: 在开始前，您需要了解的事项
 published: true
-date: 2021-03-19T06:06:15.346Z
+date: 2021-03-26T01:18:18.403Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:51:03.801Z
@@ -53,6 +53,7 @@ Halo 理论上可以运行在任何支持 Java 的平台。
 1. 版本：5.7 +
 2. 字符集（Character Set）：`utf8mb4`
 3. 排序规则（Collate）：`utf8mb4_bin`
+4. 存储引擎：InnoDB
 
 综上，建议创建数据库采用下面的命令：
 
