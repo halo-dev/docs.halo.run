@@ -2,7 +2,7 @@
 title: 版本升级
 description: 版本升级指南
 published: true
-date: 2021-03-27T11:52:24.867Z
+date: 2021-04-09T07:35:02.646Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:53:58.281Z
@@ -60,17 +60,17 @@ service halo stop
 2. 备份数据以及旧的运行包（重要）
 
 ```bash
-cp -r ~/.halo ~/.halo.1.4.6
+cp -r ~/.halo ~/.halo.1.4.7
 ```
 
 ```bash
-cd ~/app && mv halo.jar halo.jar.1.4.6
+cd ~/app && mv halo.jar halo.jar.1.4.7
 ```
 
 3. 下载最新版本的运行包
 
 ```bash
-cd ~/app && wget https://dl.halo.run/release/halo-1.4.7.jar -O halo.jar
+cd ~/app && wget https://dl.halo.run/release/halo-1.4.8.jar -O halo.jar
 ```
 
 > 如果下载速度不理想，可以[在这里](/install/downloads)选择其他下载地址。
@@ -113,7 +113,7 @@ docker rm -f halo
 2. 备份数据（重要）
 
 ```bash
-cp -r ~/.halo ~/.halo.1.4.6
+cp -r ~/.halo ~/.halo.1.4.7
 ```
 
 3. 拉取最新的 Halo 镜像
