@@ -2,7 +2,7 @@
 title: 功能配置
 description: 系统功能的相关配置说明
 published: true
-date: 2020-11-30T13:27:15.483Z
+date: 2021-04-09T08:56:57.863Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T13:57:03.906Z
@@ -145,7 +145,7 @@ A：诸如百度统计，CNZZ，Google Analytics。可以非常详细的统计�
 
 ## 找一个合适自己的主题
 
-当你搭建好博客之后，如果你不喜欢默认的主题，那么你可以去 [https://halo.run/s/themes/](https://halo.run/s/themes/) 选择你喜欢的主题。在这里主要讲一些注意事项。
+当你搭建好博客之后，如果你不喜欢默认的主题，那么你可以去 [https://halo.run/themes/](https://halo.run/themes/) 选择你喜欢的主题。在这里主要讲一些注意事项。
 
 ### 如何安装？
 
