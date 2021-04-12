@@ -2,7 +2,7 @@
 title: 腾讯云 CloudBase
 description: 使用腾讯云 CloudBase 一键部署
 published: true
-date: 2021-04-12T12:43:31.665Z
+date: 2021-04-12T12:46:54.676Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-12T10:55:32.568Z
@@ -29,11 +29,17 @@ dateCreated: 2021-04-12T10:55:32.568Z
 
 # 配置
 
-填写环境名称
+填写环境名称，这里建议把 `开启免费额度` 打开，然后点击下一步。
 
-应用配置
+![tencent-cloudbase-1.png](/assets/tencent-cloudbase/tencent-cloudbase-1.png)
 
-提交授权
+应用配置，需要注意：这里需要开通 CFS，用于存储 Halo 的工作目录。
+
+![tencent-cloudbase-2.png](/assets/tencent-cloudbase/tencent-cloudbase-2.png)
+
+提交授权，点击 `授权并开通`。
+
+![tencent-cloudbase-3.png](/assets/tencent-cloudbase/tencent-cloudbase-3.png)
 
 # 相关链接
 
