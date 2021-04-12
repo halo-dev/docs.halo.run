@@ -2,7 +2,7 @@
 title: 腾讯云 CloudBase
 description: 使用腾讯云 CloudBase 一键部署
 published: true
-date: 2021-04-12T12:46:54.676Z
+date: 2021-04-12T12:53:42.360Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-12T10:55:32.568Z
@@ -27,19 +27,39 @@ dateCreated: 2021-04-12T10:55:32.568Z
 
 [![](https://main.qcloudimg.com/raw/67f5a389f1ac6f3b4d04c7256438e44f.svg)](https://console.cloud.tencent.com/tcb/env/index?action=CreateAndDeployCloudBaseProject&appUrl=https%3A%2F%2Fgithub.com%2Fhalo-dev%2Ftencent-cloudbase-halo&branch=master)
 
-# 配置
+# 配置并部署
 
-填写环境名称，这里建议把 `开启免费额度` 打开，然后点击下一步。
+**填写环境名称**，这里建议把 `开启免费额度` 打开，然后点击下一步。
 
 ![tencent-cloudbase-1.png](/assets/tencent-cloudbase/tencent-cloudbase-1.png)
 
-应用配置，需要注意：这里需要开通 CFS，用于存储 Halo 的工作目录。
+**应用配置**，需要注意：这里需要开通 CFS，用于存储 Halo 的工作目录。
 
 ![tencent-cloudbase-2.png](/assets/tencent-cloudbase/tencent-cloudbase-2.png)
 
-提交授权，点击 `授权并开通`。
+**提交授权**，点击 `授权并开通`。
 
 ![tencent-cloudbase-3.png](/assets/tencent-cloudbase/tencent-cloudbase-3.png)
+
+**创建环境中**，完成之后，点击 `环境` 下面的卡片，即可进入详细配置页面。
+
+![tencent-cloudbase-4.png](/assets/tencent-cloudbase/tencent-cloudbase-4.png)
+
+**构建应用中**，这里可能会等待较长时间。
+
+![tencent-cloudbase-5.png](/assets/tencent-cloudbase/tencent-cloudbase-5.png)
+
+**构建应用完成**，需要注意的是，构建完成之后可能还需要等待一小段时间才能正常访问，这个期间是在等待 Halo 应用启动完毕。点击 `访问` 按钮即可进入 Halo 初始化页面。
+
+![tencent-cloudbase-6.png](/assets/tencent-cloudbase/tencent-cloudbase-6.png)
+
+**Halo 初始化页面**
+
+![tencent-cloudbase-7.png](/assets/tencent-cloudbase/tencent-cloudbase-7.png)
+
+**CFS 管理页面**：[https://console.cloud.tencent.com/cfs/fs](https://console.cloud.tencent.com/cfs/fs)
+
+![tencent-cloudbase-8.png](/assets/tencent-cloudbase/tencent-cloudbase-8.png)
 
 # 相关链接
 
