@@ -2,7 +2,7 @@
 title: 腾讯云 CloudBase
 description: 使用腾讯云 CloudBase 一键部署
 published: true
-date: 2021-04-12T11:34:02.923Z
+date: 2021-04-12T12:18:08.838Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-12T10:55:32.568Z
@@ -21,8 +21,17 @@ dateCreated: 2021-04-12T10:55:32.568Z
 1. 目前使用该方式部署，不支持修改[配置文件](https://docs.halo.run/zh/install/config)。
 1. 费用相关请参考 https://cloud.tencent.com/document/product/876/18864
 
-# 部署
+# 进入云开发页面
 
-点击下方按钮即可进入到腾讯云云开发 CloudBase 创建应用界面。
+点击下方按钮即可进入到腾讯云云开发 CloudBase 创建应用界面，此按钮可在云开发页面自动选择 Halo 的配置模板。
 
 [![](https://main.qcloudimg.com/raw/67f5a389f1ac6f3b4d04c7256438e44f.svg)](https://console.cloud.tencent.com/tcb/env/index?action=CreateAndDeployCloudBaseProject&appUrl=https%3A%2F%2Fgithub.com%2Fhalo-dev%2Ftencent-cloudbase-halo&branch=master)
+
+# 配置
+
+填写环境名称
+
+应用配置
+
+提交授权
+
