@@ -2,7 +2,7 @@
 title: 腾讯云 CloudBase
 description: 使用腾讯云 CloudBase 一键部署
 published: true
-date: 2021-04-12T12:18:08.838Z
+date: 2021-04-12T12:27:13.442Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-12T10:55:32.568Z
@@ -34,4 +34,8 @@ dateCreated: 2021-04-12T10:55:32.568Z
 应用配置
 
 提交授权
+
+# 相关链接
+
+- [Halo 配置文件仓库](https://github.com/halo-dev/tencent-cloudbase-halo)
 
