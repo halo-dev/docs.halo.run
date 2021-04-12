@@ -2,7 +2,7 @@
 title: 安装指南
 description: 简要部署指南，以及部分系统的详细部署流程
 published: true
-date: 2021-03-27T11:52:20.319Z
+date: 2021-04-12T10:56:37.900Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:53:25.248Z
@@ -22,6 +22,7 @@ dateCreated: 2020-10-09T12:53:25.248Z
 - [在 Centos 7.x 上安装 *带有完整依赖安装的详细指南*](/install/centos)
 -->
 - [与宝塔面板配合使用 *与宝塔面板配合使用的指南*](/install/bt-panel)
+- [腾讯云 CloudBase *使用腾讯云 CloudBase 一键部署*](/install/tencent-cloudbase)
 {.links-list}
 
 # 三方指南
