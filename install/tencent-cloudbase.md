@@ -2,7 +2,7 @@
 title: 腾讯云 CloudBase
 description: 使用腾讯云 CloudBase 一键部署
 published: true
-date: 2021-04-12T11:21:11.032Z
+date: 2021-04-12T11:25:14.912Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-12T10:55:32.568Z
