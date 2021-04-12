@@ -2,7 +2,7 @@
 title: 腾讯云 CloudBase
 description: 使用腾讯云 CloudBase 一键部署
 published: true
-date: 2021-04-12T12:58:53.411Z
+date: 2021-04-12T13:16:41.245Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-12T10:55:32.568Z
@@ -60,12 +60,6 @@ dateCreated: 2021-04-12T10:55:32.568Z
 **CFS 管理页面**：[https://console.cloud.tencent.com/cfs/fs](https://console.cloud.tencent.com/cfs/fs)
 
 ![tencent-cloudbase-8.png](/assets/tencent-cloudbase/tencent-cloudbase-8.png)
-
-# 更新 Halo
-
-进入 [我的应用](https://console.cloud.tencent.com/tcb/apps/index) 页面，点击 `部署` 按钮，再点击 `确定` 按钮即可。
-
-![tencent-cloudbase-9.png](/assets/tencent-cloudbase/tencent-cloudbase-9.png)
 
 # 相关链接
 
