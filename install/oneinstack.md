@@ -2,7 +2,7 @@
 title: 使用 OneinStack 管理 Nginx 反向代理
 description: 使用 OneinStack 的 vhost 脚本创建 Halo 站点的 Nginx 配置文件
 published: true
-date: 2021-05-16T07:43:50.277Z
+date: 2021-05-16T07:43:55.800Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-16T07:06:37.017Z
@@ -145,7 +145,7 @@ vim /usr/local/nginx/conf/vhost/demo.halo.run.conf
 
 ```nginx
 upstream halo {
-  server 127.0.0.1:5678;
+  server 127.0.0.1:8090;
 }
 ```
 
