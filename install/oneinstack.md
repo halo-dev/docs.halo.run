@@ -2,7 +2,7 @@
 title: 使用 OneinStack 管理 Nginx 反向代理
 description: 使用 OneinStack 的 vhost 脚本创建 Halo 站点的 Nginx 配置文件
 published: true
-date: 2021-05-16T07:55:49.339Z
+date: 2021-05-16T07:56:18.209Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-16T07:06:37.017Z
@@ -257,4 +257,4 @@ nginx: configuration file /usr/local/nginx/conf/nginx.conf test is successful
 nginx -s reload
 ```
 
-至此，整个教程完毕。
+至此，整个教程完毕，现在你可以访问域名检查是否已经配置成功。
