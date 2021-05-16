@@ -2,7 +2,7 @@
 title: 使用 OneinStack 管理 Nginx 反向代理
 description: 使用 OneinStack 的 vhost 脚本创建 Halo 站点的 Nginx 配置文件
 published: true
-date: 2021-05-16T07:47:25.367Z
+date: 2021-05-16T07:52:02.851Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-16T07:06:37.017Z
@@ -179,4 +179,59 @@ upstream halo {
     expires 7d;
     access_log off;
   }
+```
+
+如果不按照第 5，6 步操作，请求一些图片或者样式文件不会经过 Halo，所以请不要忽略此配置。
+
+至此，配置修改完毕，保存即可。最终你的配置文件可能如下面配置一样：
+
+```nginx
+upstream halo {
+  server 127.0.0.1:8090;
+}
+server {
+  listen 80;
+  listen [::]:80;
+  listen 443 ssl http2;
+  listen [::]:443 ssl http2;
+  ssl_certificate /usr/local/nginx/conf/ssl/demo.halo.run.crt;
+  ssl_certificate_key /usr/local/nginx/conf/ssl/demo.halo.run.key;
+  ssl_protocols TLSv1 TLSv1.1 TLSv1.2 TLSv1.3;
+  ssl_ciphers TLS13-AES-256-GCM-SHA384:TLS13-CHACHA20-POLY1305-SHA256:TLS13-AES-128-GCM-SHA256:TLS13-AES-128-CCM-8-SHA256:TLS13-AES-128-CCM-SHA256:EECDH+CHACHA20:EECDH+AES128:RSA+AES128:EECDH+AES256:RSA+AES256:EECDH+3DES:RSA+3DES:!MD5;
+  ssl_prefer_server_ciphers on;
+  ssl_session_timeout 10m;
+  ssl_session_cache builtin:1000 shared:SSL:10m;
+  ssl_buffer_size 1400;
+  add_header Strict-Transport-Security max-age=15768000;
+  ssl_stapling on;
+  ssl_stapling_verify on;
+  server_name demo.halo.run;
+  access_log /data/wwwlogs/demo.halo.run_nginx.log combined;
+  index index.html index.htm index.php;
+  root /data/wwwroot/demo.halo.run;
+  if ($ssl_protocol = "") { return 301 https://$host$request_uri; }
+  include /usr/local/nginx/conf/rewrite/none.conf;
+  #error_page 404 /404.html;
+  #error_page 502 /502.html;
+  location ~ .*\.(gif|jpg|jpeg|png|bmp|swf|flv|mp4|ico)$ {
+    proxy_pass http://halo;
+    expires 30d;
+    access_log off;
+  }
+  location ~ .*\.(js|css)?$ {
+    proxy_pass http://halo;
+    expires 7d;
+    access_log off;
+  }
+  location ~ /(\.user\.ini|\.ht|\.git|\.svn|\.project|LICENSE|README\.md) {
+    deny all;
+  }
+  location / {
+    proxy_set_header HOST $host;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_pass http://halo;
+  }
+}
 ```
