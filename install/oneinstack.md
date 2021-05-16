@@ -2,7 +2,7 @@
 title: 使用 OneinStack 管理 Nginx 反向代理
 description: 使用 OneinStack 的 vhost 脚本创建 Halo 站点的 Nginx 配置文件
 published: true
-date: 2021-05-16T07:43:55.800Z
+date: 2021-05-16T07:47:25.367Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-16T07:06:37.017Z
@@ -139,7 +139,7 @@ vim /usr/local/nginx/conf/vhost/demo.halo.run.conf
 
 此段配置是针对 php 应用的，所以可以删掉。
 
-3. 添加 upstream
+3. 添加 `upstream` 配置
 
 在 `server` 的同级节点添加如下配置：
 
@@ -149,4 +149,34 @@ upstream halo {
 }
 ```
 
+4. 在 `server` 节点添加如下配置
 
+```nginx
+  location / {
+    proxy_set_header HOST $host;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_pass http://halo;
+  }
+```
+
+5. 修改 `location ~ .*\.(gif|jpg|jpeg|png|bmp|swf|flv|mp4|ico)$` 节点
+
+```nginx
+  location ~ .*\.(gif|jpg|jpeg|png|bmp|swf|flv|mp4|ico)$ {
+    proxy_pass http://halo;
+    expires 30d;
+    access_log off;
+  }
+```
+
+6. 修改 `location ~ .*\.(js|css)?$` 节点
+
+```nginx
+  location ~ .*\.(js|css)?$ {
+    proxy_pass http://halo;
+    expires 7d;
+    access_log off;
+  }
+```
