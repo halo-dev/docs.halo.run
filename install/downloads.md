@@ -1,8 +1,8 @@
 ---
 title: 资源下载
-description: 列出目前所有 Halo 相关的下载地址
+description: 目前所有与 Halo 相关的下载地址
 published: true
-date: 2021-04-06T12:43:58.610Z
+date: 2021-05-19T14:14:53.594Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-27T13:01:44.286Z
