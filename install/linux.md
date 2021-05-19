@@ -2,7 +2,7 @@
 title: 在 Linux 环境部署
 description: 在Linux上快速安装Halo
 published: true
-date: 2021-04-09T07:33:50.476Z
+date: 2021-05-19T14:09:27.727Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:51:55.006Z
@@ -214,7 +214,7 @@ upstream halo {
 server {
   listen 80;
   listen [::]:80;
-  server_name youdomain.com;
+  server_name yourdomain.com;
   client_max_body_size 1024m;
   location / {
     proxy_pass http://halo;
@@ -231,7 +231,7 @@ server {
 ## Caddy 1.x
 
 ```
-https://www.youdomain.com {
+https://www.yourdomain.com {
  gzip
  tls your@email.com
  proxy / localhost:8090 {
@@ -243,7 +243,7 @@ https://www.youdomain.com {
 ## Caddy 2.x
 
 ```
-www.youdomain.com
+www.yourdomain.com
 
 encode gzip
 
