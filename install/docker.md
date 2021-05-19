@@ -2,7 +2,7 @@
 title: 使用 Docker 部署 Halo
 description: 使用 Docker 部署
 published: true
-date: 2021-02-04T13:47:00.584Z
+date: 2021-05-19T14:13:30.640Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:50:08.650Z
@@ -66,7 +66,7 @@ upstream halo {
 server {
   listen 80;
   listen [::]:80;
-  server_name www.youdomain.com;
+  server_name www.yourdomain.com;
   client_max_body_size 1024m;
   location / {
     proxy_pass http://halo;
@@ -81,7 +81,7 @@ server {
 ## Caddy 1.x
 
 ```
-https://www.youdomain.com {
+https://www.yourdomain.com {
  gzip
  tls your@email.com
  proxy / localhost:8090 {
@@ -93,7 +93,7 @@ https://www.youdomain.com {
 ## Caddy 2.x
 
 ```
-www.youdomain.com
+www.yourdomain.com
 
 encode gzip
 
