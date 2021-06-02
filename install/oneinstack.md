@@ -2,7 +2,7 @@
 title: 使用 OneinStack 管理 Nginx 反向代理
 description: 使用 OneinStack 的 vhost 脚本创建 Halo 站点的 Nginx 配置文件
 published: true
-date: 2021-06-02T02:20:00.692Z
+date: 2021-06-02T02:20:32.152Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-16T07:06:37.017Z
@@ -244,6 +244,11 @@ server {
     proxy_set_header X-Real-IP $remote_addr;
     proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
     proxy_pass http://halo;
+  }
+  location ^~ /.well-known/acme-challenge/ {
+    default_type "text/plain";
+    allow all;
+    root /data/wwwroot/demo.halo.run/;
   }
 }
 ```
