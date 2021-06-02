@@ -2,7 +2,7 @@
 title: 使用 OneinStack 管理 Nginx 反向代理
 description: 使用 OneinStack 的 vhost 脚本创建 Halo 站点的 Nginx 配置文件
 published: true
-date: 2021-05-16T07:56:18.209Z
+date: 2021-06-02T02:20:00.692Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-16T07:06:37.017Z
@@ -182,6 +182,18 @@ upstream halo {
 ```
 
 如果不按照第 5，6 步操作，请求一些图片或者样式文件不会经过 Halo，所以请不要忽略此配置。
+
+7. 添加 acme.sh 续签验证路由
+
+OneinStack 使用的 acme.sh 管理证书，如果你在创建 vhost 的时候选择了使用 `Let's Encrypt` 申请证书，那么 OneinStack 会在系统内添加一个定时任务去自动续签证书，acme.sh 默认验证站点所有权的方式为在站点根目录生成一个文件（.well-known）来做验证，由于配置了反向代理，所以在验证的时候是无法直接访问到站点目录下的 .well-known 文件夹下的验证文件的。需要添加如下配置：
+
+```nginx
+location ^~ /.well-known/acme-challenge/ {
+  default_type "text/plain";
+  allow all;
+  root /data/wwwroot/demo.halo.run/;
+}
+```
 
 至此，配置修改完毕，保存即可。最终你的配置文件可能如下面配置一样：
 
