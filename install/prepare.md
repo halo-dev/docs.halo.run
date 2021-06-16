@@ -2,7 +2,7 @@
 title: 写在前面
 description: 在开始前，您需要了解的事项
 published: true
-date: 2021-06-16T16:30:12.136Z
+date: 2021-06-16T16:34:35.272Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:51:03.801Z
@@ -78,7 +78,8 @@ create database halodb character set utf8mb4 collate utf8mb4_bin;
 如果您当前还没有购买服务器，可以考虑通过以下链接购买，这会为我们带来一部分收益。此外，如果您已经通过下面的链接购买了服务器，可以[联系我们](mailto:hi@halo.run)帮你免费部署 Halo。
 
 - 阿里云：[https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=3t6v5x0v](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=3t6v5x0v)
-- 腾讯云：[https://curl.qcloud.com/GbW1q3Zv](https://curl.qcloud.com/GbW1q3Zv)
+- 阿里云 618 活动：[https://www.aliyun.com/activity/618/2021?userCode=3t6v5x0v](https://www.aliyun.com/activity/618/2021?userCode=3t6v5x0v)
+- 腾讯云 618 活动：[https://curl.qcloud.com/GbW1q3Zv](https://curl.qcloud.com/GbW1q3Zv)
 - Vultr：[https://www.vultr.com/?ref=7278289](https://www.vultr.com/?ref=7278289)
 
 # 浏览器支持
