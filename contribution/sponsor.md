@@ -2,7 +2,7 @@
 title: 赞助我们
 description: 如果 Halo 对您有帮助，不妨赞助我们
 published: true
-date: 2021-05-27T11:24:45.578Z
+date: 2021-06-16T16:29:47.046Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-26T16:33:09.606Z
@@ -36,6 +36,6 @@ dateCreated: 2021-01-26T16:33:09.606Z
 如果您当前还没有购买服务器，可以考虑通过以下链接购买，这会为我们带来一部分收益。此外，如果您已经通过下面的链接购买了服务器，可以[联系我们](mailto:hi@halo.run)帮您免费部署 Halo。
 
 - 阿里云：[https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=3t6v5x0v](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=3t6v5x0v)
-- 腾讯云：[https://curl.qcloud.com/7VVMd37R](https://curl.qcloud.com/7VVMd37R)
+- 腾讯云：[https://curl.qcloud.com/GbW1q3Zv](https://curl.qcloud.com/GbW1q3Zv)
 - Vultr：[https://www.vultr.com/?ref=7278289](https://www.vultr.com/?ref=7278289)
 
