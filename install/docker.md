@@ -2,7 +2,7 @@
 title: 使用 Docker 部署 Halo
 description: 使用 Docker 部署
 published: true
-date: 2021-05-19T14:13:30.640Z
+date: 2021-06-20T03:49:38.909Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:50:08.650Z
@@ -31,15 +31,15 @@ vim application.yaml
 
 4. 拉取最新的 Halo 镜像
 ```bash
-docker pull halohub/halo
+docker pull halohub/halo:1.4.8
 ```
 
- > 从 1.4.3 开始，Docker 镜像已经转移到 `halohub` 组织，不再是 `ruibaby/halo`
+ > 我们推荐使用具体版本号的镜像，但也提供了 `latest` 标签的镜像，它始终是最新的。
  {.is-info}
 
 5. 创建容器
 ```bash
-docker run -it -d --name halo -p 8090:8090 -v ~/.halo:/root/.halo --restart=always halohub/halo
+docker run -it -d --name halo -p 8090:8090 -v ~/.halo:/root/.halo --restart=always halohub/halo:1.4.8
 ```
 - **-it：** 开启输入功能并连接伪终端
 - **-d：** 后台运行容器
