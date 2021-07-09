@@ -2,7 +2,7 @@
 title: 安装指南
 description: 简要部署指南，以及部分系统的详细部署流程
 published: true
-date: 2021-05-16T07:58:41.939Z
+date: 2021-07-09T02:50:19.461Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:53:25.248Z
@@ -34,4 +34,6 @@ dateCreated: 2020-10-09T12:53:25.248Z
 - [Halo 博客安装教程，一款优秀的 Java 开源博客系统](https://www.cnblogs.com/bronya0/p/14198512.html)
 - [如何用服务器优雅地搭建一个博客—Hello,Halo! *Bilibili*](https://www.bilibili.com/video/BV1JN411Q7Na/)
 - [Halo+云服务器+Nginx反向代理实现个人博客搭建](https://yusart.xyz/archives/halo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA)
+- [如何在 Windows 下搭建 Halo
+](https://ykanade.cn/archives/%E5%A6%82%E4%BD%95%E5%9C%A8windows%E4%B8%8B%E6%90%AD%E5%BB%BAhalo)
 {.links-list}
