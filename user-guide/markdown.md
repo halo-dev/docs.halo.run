@@ -187,3 +187,32 @@ Halo 内置一些短连接以更好地支持一些 HTML 语法，但是编辑器
 <iframe height="256" width="256" src="//player.bilibili.com/player.html?aid=65898131" scrolling="no" border="0" frameborder="no"  framespacing="0" allowfullscreen="true">  </iframe>
 ```
 
+### 脚注
+
+### Tabs {.tabset}
+#### 语法
+
+```markdown
+[^脚注名]
+[^脚注名]: 脚注内容
+```
+
+#### 示例
+
+```markdown
+驿外[^1]断桥边，寂寞开无主。已是黄昏独自愁，更着风和雨
+[^1]: 驿（yì）外：指荒僻、冷清之地。驿，驿站。
+```
+
+#### 解析结果
+
+```html
+<p>驿外<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>断桥边，寂寞开无主。已是黄昏独自愁，更着风和雨</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>驿（yì）外：指荒僻、冷清之地。驿，驿站。 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+```
