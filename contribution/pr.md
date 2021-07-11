@@ -2,7 +2,7 @@
 title: 代码贡献
 description: 代码贡献指南
 published: true
-date: 2021-07-11T15:14:54.857Z
+date: 2021-07-11T15:28:28.431Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T06:36:02.384Z
@@ -60,4 +60,5 @@ git push
 
 ### 开发规范
 
-请参考 [https://halo.run/archives/code-style](https://halo.run/archives/code-style)，请确保所有代码格式化之后再提交。
+请参考 [代码风格
+](/developer-guide/core/code-style)，请确保所有代码格式化之后再提交。
