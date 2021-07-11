@@ -2,7 +2,7 @@
 title: 安装指南
 description: 简要部署指南，以及部分系统的详细部署流程
 published: true
-date: 2021-07-11T15:30:21.705Z
+date: 2021-07-11T15:30:28.878Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:53:25.248Z
@@ -19,9 +19,7 @@ dateCreated: 2020-10-09T12:53:25.248Z
 
 # 其他指南
 
-<!--
-- [在 Centos 7.x 上安装 *带有完整依赖安装的详细指南*](/install/centos)
--->
+
 - [与宝塔面板配合使用 *与宝塔面板配合使用的指南*](/install/bt-panel)
 - [使用 OneinStack 管理 Nginx 反向代理 *使用 OneinStack 的 vhost 脚本创建 Halo 站点的 Nginx 配置文件*](/install/oneinstack)
 - [腾讯云 CloudBase *使用腾讯云 CloudBase 一键部署*](/install/tencent-cloudbase)
