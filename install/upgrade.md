@@ -2,7 +2,7 @@
 title: 版本升级
 description: 版本升级指南
 published: true
-date: 2021-07-18T16:09:44.835Z
+date: 2021-07-18T16:10:02.450Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:53:58.281Z
@@ -60,11 +60,11 @@ service halo stop
 2. 备份数据以及旧的运行包（重要）
 
 ```bash
-cp -r ~/.halo ~/.halo.1.4.7
+cp -r ~/.halo ~/.halo.1.4.8
 ```
 
 ```bash
-cd ~/app && mv halo.jar halo.jar.1.4.7
+cd ~/app && mv halo.jar halo.jar.1.4.8
 ```
 
 3. 下载最新版本的运行包
