@@ -2,7 +2,7 @@
 title: 版本升级
 description: 版本升级指南
 published: true
-date: 2021-07-18T16:09:35.287Z
+date: 2021-07-18T16:09:44.835Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:53:58.281Z
@@ -113,7 +113,7 @@ docker rm -f halo
 2. 备份数据（重要）
 
 ```bash
-cp -r ~/.halo ~/.halo.1.4.7
+cp -r ~/.halo ~/.halo.1.4.8
 ```
 
 3. 拉取最新的 Halo 镜像
