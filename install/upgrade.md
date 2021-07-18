@@ -2,7 +2,7 @@
 title: 版本升级
 description: 版本升级指南
 published: true
-date: 2021-06-20T03:52:33.683Z
+date: 2021-07-18T16:09:21.226Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:53:58.281Z
@@ -70,7 +70,7 @@ cd ~/app && mv halo.jar halo.jar.1.4.7
 3. 下载最新版本的运行包
 
 ```bash
-cd ~/app && wget https://dl.halo.run/release/halo-1.4.8.jar -O halo.jar
+cd ~/app && wget https://dl.halo.run/release/halo-1.4.9.jar -O halo.jar
 ```
 
 > 如果下载速度不理想，可以[在这里](/install/downloads)选择其他下载地址。
