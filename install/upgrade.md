@@ -2,7 +2,7 @@
 title: 版本升级
 description: 版本升级指南
 published: true
-date: 2021-07-18T17:04:55.753Z
+date: 2021-07-20T06:42:19.918Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:53:58.281Z
@@ -60,17 +60,17 @@ service halo stop
 2. 备份数据以及旧的运行包（重要）
 
 ```bash
-cp -r ~/.halo ~/.halo.1.4.7
+cp -r ~/.halo ~/.halo.1.4.8
 ```
 
 ```bash
-cd ~/app && mv halo.jar halo.jar.1.4.7
+cd ~/app && mv halo.jar halo.jar.1.4.8
 ```
 
 3. 下载最新版本的运行包
 
 ```bash
-cd ~/app && wget https://dl.halo.run/release/halo-1.4.8.jar -O halo.jar
+cd ~/app && wget https://dl.halo.run/release/halo-1.4.10.jar -O halo.jar
 ```
 
 > 如果下载速度不理想，可以[在这里](/install/downloads)选择其他下载地址。
@@ -113,13 +113,13 @@ docker rm -f halo
 2. 备份数据（重要）
 
 ```bash
-cp -r ~/.halo ~/.halo.1.4.7
+cp -r ~/.halo ~/.halo.1.4.8
 ```
 
 3. 拉取最新的 Halo 镜像
 
 ```bash
-docker pull halohub/halo:1.4.8
+docker pull halohub/halo:1.4.10
 ```
 
 > 查看最新版本镜像：https://hub.docker.com/r/halohub/halo ，我们推荐使用具体版本号的镜像，但也提供了 `latest` 标签的镜像，它始终是最新的。
@@ -128,7 +128,7 @@ docker pull halohub/halo:1.4.8
 4. 创建容器
 
 ```bash
-docker run -it -d --name halo -p 8090:8090 -v ~/.halo:/root/.halo --restart=always halohub/halo:1.4.8
+docker run -it -d --name halo -p 8090:8090 -v ~/.halo:/root/.halo --restart=always halohub/halo:1.4.10
 ```
 - **-it：** 开启输入功能并连接伪终端
 - **-d：** 后台运行容器
