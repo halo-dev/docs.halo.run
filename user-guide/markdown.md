@@ -2,7 +2,7 @@
 title: Markdown 语法
 description: Halo 编辑器中所支持的 Markdown 语法说明
 published: true
-date: 2021-01-29T15:08:38.054Z
+date: 2021-07-20T07:38:56.950Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T14:04:57.014Z
@@ -187,7 +187,7 @@ Halo 内置一些短连接以更好地支持一些 HTML 语法，但是编辑器
 <iframe height="256" width="256" src="//player.bilibili.com/player.html?aid=65898131" scrolling="no" border="0" frameborder="no"  framespacing="0" allowfullscreen="true">  </iframe>
 ```
 
-### 脚注
+## 脚注
 
 ### Tabs {.tabset}
 #### 语法
