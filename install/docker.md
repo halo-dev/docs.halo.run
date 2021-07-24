@@ -2,7 +2,7 @@
 title: 使用 Docker 部署 Halo
 description: 使用 Docker 部署
 published: true
-date: 2021-07-20T06:41:29.496Z
+date: 2021-07-24T07:03:21.940Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:50:08.650Z
@@ -31,7 +31,7 @@ vim application.yaml
 
 4. 拉取最新的 Halo 镜像
 ```bash
-docker pull halohub/halo:1.4.10
+docker pull halohub/halo:1.4.11
 ```
 
 > 查看最新版本镜像：https://hub.docker.com/r/halohub/halo ，我们推荐使用具体版本号的镜像，但也提供了 `latest` 标签的镜像，它始终是最新的。
