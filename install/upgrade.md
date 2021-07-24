@@ -2,7 +2,7 @@
 title: 版本升级
 description: 版本升级指南
 published: true
-date: 2021-07-24T07:03:58.828Z
+date: 2021-07-24T07:04:08.411Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:53:58.281Z
@@ -119,7 +119,7 @@ cp -r ~/.halo ~/.halo.1.4.8
 3. 拉取最新的 Halo 镜像
 
 ```bash
-docker pull halohub/halo:1.4.10
+docker pull halohub/halo:1.4.11
 ```
 
 > 查看最新版本镜像：https://hub.docker.com/r/halohub/halo ，我们推荐使用具体版本号的镜像，但也提供了 `latest` 标签的镜像，它始终是最新的。
@@ -128,7 +128,7 @@ docker pull halohub/halo:1.4.10
 4. 创建容器
 
 ```bash
-docker run -it -d --name halo -p 8090:8090 -v ~/.halo:/root/.halo --restart=always halohub/halo:1.4.10
+docker run -it -d --name halo -p 8090:8090 -v ~/.halo:/root/.halo --restart=always halohub/halo:1.4.11
 ```
 - **-it：** 开启输入功能并连接伪终端
 - **-d：** 后台运行容器
