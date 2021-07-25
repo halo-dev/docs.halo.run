@@ -2,7 +2,7 @@
 title: 模板标签
 description: 用于获取数据的模板标签
 published: true
-date: 2021-03-07T05:30:46.455Z
+date: 2021-07-25T08:59:16.050Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T05:09:17.676Z
@@ -918,7 +918,7 @@ comments:
 ```html
 <@commentTag method="latest" top="获取条数">
     <ul>
-        <#list comments as comment>
+        <#list comments.content as comment>
             <li>${comment.author!}：${comment.content!}</li>
         </#list>
     </ul>
