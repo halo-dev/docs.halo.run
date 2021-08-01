@@ -2,7 +2,7 @@
 title: 模板标签
 description: 用于获取数据的模板标签
 published: true
-date: 2021-07-25T08:59:16.050Z
+date: 2021-08-01T06:32:57.968Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T05:09:17.676Z
@@ -2280,7 +2280,7 @@ pagination：
 ##### 语法
 
 ```html
-<@paginationTag method="search" page="${posts.number}" total="${posts.totalPages}" display="3">
+<@paginationTag method="search" page="${posts.number}" total="${posts.totalPages}" keyword="${keyword}" display="3">
 // do something
 </@paginationTag>
 ```
@@ -2290,7 +2290,8 @@ pagination：
 1. method：search
 2. page：当前页，通过 `${posts.number}` 得到
 3. total：总页数，通过 `${posts.totalPages}` 得到
-3. display：页码展示数量
+4. keyword: 关键词
+5. display：页码展示数量
 
 ##### 返回参数
 
@@ -2314,7 +2315,7 @@ pagination：
 
 ```html
 <ul class="pagination">
-    <@paginationTag method="search" page="${posts.number}" total="${posts.totalPages}" display="3">
+    <@paginationTag method="search" page="${posts.number}" total="${posts.totalPages}" keyword="${keyword}" display="3">
         <#if pagination.hasPrev>
             <li>
                 <a href="${pagination.prevPageFullPath!}">上一页</a>  
