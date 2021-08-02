@@ -2,13 +2,13 @@
 title: 在 Linux 环境部署
 description: 在Linux上快速安装Halo
 published: true
-date: 2021-07-24T07:02:48.893Z
+date: 2021-08-02T10:47:47.198Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:51:55.006Z
 ---
 
-> 在继续操作之前，我们推荐您先阅读[《写在前面》](/install/prepare)，这可以快速帮助你了解 Halo。
+> 在继续操作之前，我们推荐您先阅读 [《写在前面》](/install/prepare)，这可以快速帮助你了解 Halo。
 {.is-info}
 
 # 依赖检查
@@ -84,7 +84,7 @@ passwd halo
 su - halo
 ```
 
-2. 创建存放[运行包](/install/prepare#%E8%BF%90%E8%A1%8C%E5%8C%85)的目录
+2. 创建存放 [运行包](/install/prepare#%E8%BF%90%E8%A1%8C%E5%8C%85) 的目录
 > 这里以 `~/app` 为例
 
 ```
@@ -96,21 +96,21 @@ mkdir ~/app && cd ~/app
 wget https://dl.halo.run/release/halo-1.4.11.jar -O halo.jar
 ```
 
-> 如果下载速度不理想，可以[在这里](/install/downloads)选择其他下载地址。
+> 如果下载速度不理想，可以 [在这里](/install/downloads) 选择其他下载地址。
 {.is-info}
 
-4. 创建[工作目录](/install/prepare#%E5%B7%A5%E4%BD%9C%E7%9B%AE%E5%BD%95)
+4. 创建 [工作目录](/install/prepare#%E5%B7%A5%E4%BD%9C%E7%9B%AE%E5%BD%95)
 
 ```bash
 mkdir ~/.halo && cd ~/.halo
 ```
 
-5. 下载示例配置文件到[工作目录](/install/prepare#%E5%B7%A5%E4%BD%9C%E7%9B%AE%E5%BD%95)
+5. 下载示例配置文件到 [工作目录](/install/prepare#%E5%B7%A5%E4%BD%9C%E7%9B%AE%E5%BD%95)
 ```bash
 wget https://dl.halo.run/config/application-template.yaml -O ./application.yaml 
 ```
 
-6. 编辑配置文件，配置数据库或者端口等，如需配置请参考[参考配置](/install/config)
+6. 编辑配置文件，配置数据库或者端口等，如需配置请参考 [参考配置](/install/config)
 ```bash
 vim application.yaml
 ```
@@ -126,12 +126,12 @@ run.halo.app.listener.StartedListener    : Halo started at         http://127.0.
 run.halo.app.listener.StartedListener    : Halo admin started at   http://127.0.0.1:8090/admin
 run.halo.app.listener.StartedListener    : Halo has started successfully!
 ```
-打开 `http://ip:端口号` 即可看到安装引导界面。
+打开 `http://ip: 端口号` 即可看到安装引导界面。
 
 > 如测试启动正常，请继续看`作为服务运行`部分，第 8 步仅仅作为测试。当你关闭 ssh 连接之后，服务会停止。你可使用 <kbd>CTRL</kbd>+<kbd>C</kbd> 停止运行测试进程。
 {.is-info}
 
-> 如果需要配置域名访问，建议先配置好反向代理以及域名解析再进行初始化。如果通过 `http://ip:端口号` 的形式无法访问，请到服务器厂商后台将运行的端口号添加到安全组，如果服务器使用了 Linux 面板，请检查此 Linux 面板是否有还有安全组配置，需要同样将端口号添加到安全组。
+> 如果需要配置域名访问，建议先配置好反向代理以及域名解析再进行初始化。如果通过 `http://ip: 端口号` 的形式无法访问，请到服务器厂商后台将运行的端口号添加到安全组，如果服务器使用了 Linux 面板，请检查此 Linux 面板是否有还有安全组配置，需要同样将端口号添加到安全组。
 {.is-warning}
 
 # 作为服务运行
