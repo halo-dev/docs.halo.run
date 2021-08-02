@@ -2,7 +2,7 @@
 title: 写在前面
 description: 在开始前，您需要了解的事项
 published: true
-date: 2021-07-04T09:25:01.712Z
+date: 2021-08-02T11:02:32.769Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:51:03.801Z
@@ -75,7 +75,7 @@ create database halodb character set utf8mb4 collate utf8mb4_bin;
 
 ## 服务器推荐
 
-如果您当前还没有购买服务器，可以考虑通过以下链接购买，这会为我们带来一部分收益。此外，如果您已经通过下面的链接购买了服务器，可以[联系我们](mailto:hi@halo.run)帮你免费部署 Halo。
+如果您当前还没有购买服务器，可以考虑通过以下链接购买，这会为我们带来一部分收益。此外，如果您已经通过下面的链接购买了服务器，可以 [联系我们](mailto:hi@halo.run) 帮你免费部署 Halo。
 
 - 阿里云：[https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=3t6v5x0v](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=3t6v5x0v)
 - 腾讯云 618 活动：[https://curl.qcloud.com/GbW1q3Zv](https://curl.qcloud.com/GbW1q3Zv)
@@ -92,7 +92,7 @@ create database halodb character set utf8mb4 collate utf8mb4_bin;
 
 ## ~（符号）
 
-代表当前系统下的[用户目录](https://zh.wikipedia.org/wiki/%E5%AE%B6%E7%9B%AE%E5%BD%95)。
+代表当前系统下的 [用户目录](https://zh.wikipedia.org/wiki/%E5%AE%B6%E7%9B%AE%E5%BD%95)。
 
 ## 运行包
 指 Halo 构建所产生的 Jar 包，后缀为 `.jar`。可能与其他网站应用有所区别的是，Halo 仅仅只有这一个文件。而且所有数据统一保存在下面所说的 `工作目录`。
