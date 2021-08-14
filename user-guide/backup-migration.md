@@ -2,7 +2,7 @@
 title: 备份迁移
 description: 关于备份和迁移的最佳实践
 published: true
-date: 2021-08-14T08:07:23.797Z
+date: 2021-08-14T08:07:44.346Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-07T07:21:14.137Z
@@ -39,4 +39,4 @@ dateCreated: 2021-08-07T07:21:14.137Z
 
 ## 整站迁移
 
-此操作通常用于迁移服务器，基于上面 **整站备份** 所说，Halo 的所有数据都是存放于当前用户目录的工作目录（.halo）下的。当然，这仅限于使用 **H2 Database** 的情况下，如果你使用的 MySQL，那么还需要手动导出 MySQL 数据。所以，我们迁移服务器仅仅需要需要将工作目录（.halo）复制到新服务器的用户目录下解压，然后按照 [安装指南](https://docs.halo.run/zh/install/index) 重新安装即可。MySQL 用户还需要做的就是手动导出 MySQL 数据，并在新服务器上导入。
+此操作通常用于迁移服务器，基于上面 **整站备份** 所说，Halo 的所有数据都是存放于当前用户目录的工作目录（.halo）下的。当然，这仅限于使用 **H2 Database** 的情况下，如果你使用的 MySQL，那么还需要手动导出 MySQL 数据。所以，我们迁移服务器仅仅需要需要将工作目录（.halo）复制到新服务器的用户目录下解压，然后按照 [《安装指南》](https://docs.halo.run/zh/install/index) 重新安装即可。MySQL 用户还需要做的就是手动导出 MySQL 数据，并在新服务器上导入。
