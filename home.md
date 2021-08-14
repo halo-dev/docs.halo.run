@@ -2,7 +2,7 @@
 title: 首页
 description: Halo 官方文档
 published: true
-date: 2021-05-19T14:15:34.511Z
+date: 2021-08-14T08:02:57.072Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:41:27.924Z
@@ -18,6 +18,7 @@ dateCreated: 2020-10-09T12:41:27.924Z
 {.links-list}
 
 # 用户指南
+- [备份迁移 *关于备份和迁移的最佳实践*](/user-guide/backup-migration)
 - [Markdown 语法 *Halo 编辑器中所支持的 Markdown 语法说明*](/user-guide/markdown)
 {.links-list}
 
