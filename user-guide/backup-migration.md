@@ -2,7 +2,7 @@
 title: 备份迁移
 description: 关于备份和迁移的最佳实践
 published: true
-date: 2021-08-14T07:47:11.728Z
+date: 2021-08-14T07:48:07.251Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-07T07:21:14.137Z
@@ -33,6 +33,8 @@ dateCreated: 2021-08-07T07:21:14.137Z
 
 此功能为导入上面所说的数据备份产生的数据文件（JSON 格式），并非整站备份的工作目录文件。需要注意的是，此功能仅在站点初始化的时候支持。如下图：
 
+![halo-data-import.png](/assets/halo-data-import.png)
 
+上传文件之后，点击导入即可。
 
 ## 整站迁移
