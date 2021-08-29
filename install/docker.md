@@ -2,7 +2,7 @@
 title: 使用 Docker 部署 Halo
 description: 使用 Docker 部署
 published: true
-date: 2021-08-29T10:56:54.484Z
+date: 2021-08-29T10:56:59.938Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:50:08.650Z
@@ -39,7 +39,7 @@ docker pull halohub/halo:1.4.11
 
 5. 创建容器
 ```bash
-docker run -it -d --name halo -p 8090:8090 -v ~/.halo:/root/.halo --restart=always halohub/halo:1.4.11
+docker run -it -d --name halo -p 8090:8090 -v ~/.halo:/root/.halo --restart=unless-stopped halohub/halo:1.4.11
 ```
 - **-it：** 开启输入功能并连接伪终端
 - **-d：** 后台运行容器
