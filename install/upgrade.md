@@ -2,7 +2,7 @@
 title: 版本升级
 description: 版本升级指南
 published: true
-date: 2021-08-29T10:57:32.475Z
+date: 2021-08-29T10:59:33.296Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:53:58.281Z
@@ -22,34 +22,6 @@ dateCreated: 2020-10-09T12:53:58.281Z
 
 > 如果当前您不方便升级到 11，我们推荐使用 [Docker](/install/docker) 运行新版 Halo，从 Jar 包的方式迁移到 Docker 运行非常方便，按照[指南](/install/docker)在创建容器的时候将容器内的 `/root/.halo` 目录映射到当前 Halo 的工作目录即可。
 {.is-info}
-
-**JRE 升级方案**（针对按照旧版本文档安装 JRE 的用户）：
-
-如果您之前是按照文档安装的 JRE，可以尝试使用下面的命令来升级。
-
-查看当前安装的版本：
-
-```bash
-rpm -qa|grep jdk
-```
-
-卸载 `jdk1.8.0` 开头的那个包（包名可能会不一样）：
-
-```bash
-yum remove java-1.8.0-openjdk-1.8.0_121-fcs.x86_64
-```
-
-```bash
-yum remove java-1.8.0-openjdk-headless-1.8.0.275.b01-1.el8_3.x86_64
-```
-
-安装 OpenJRE 11：
-
-```bash
-yum install java-11-openjdk -y
-```
-
----
 
 1. 停止正在运行的服务
 
