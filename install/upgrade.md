@@ -2,7 +2,7 @@
 title: 版本升级
 description: 版本升级指南
 published: true
-date: 2021-07-24T07:04:08.411Z
+date: 2021-08-29T10:57:32.475Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:53:58.281Z
@@ -128,11 +128,11 @@ docker pull halohub/halo:1.4.11
 4. 创建容器
 
 ```bash
-docker run -it -d --name halo -p 8090:8090 -v ~/.halo:/root/.halo --restart=always halohub/halo:1.4.11
+docker run -it -d --name halo -p 8090:8090 -v ~/.halo:/root/.halo --restart=unless-stopped halohub/halo:1.4.11
 ```
 - **-it：** 开启输入功能并连接伪终端
 - **-d：** 后台运行容器
 - **--name：** 为容器指定一个名称
 - **-p：** 端口映射，格式为 `主机(宿主)端口:容器端口` ，可在 `application.yaml` 配置。
 - **-v：** 工作目录映射。形式为：-v 宿主机路径:/root/.halo，后者不能修改。
-- **--restart：** 建议设置为 `always`，在 Docker 启动的时候自动启动 Halo 容器。
+- **--restart：** 建议设置为 `unless-stopped`，在 Docker 启动的时候自动启动 Halo 容器。
