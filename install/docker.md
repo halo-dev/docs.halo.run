@@ -2,7 +2,7 @@
 title: 使用 Docker 部署 Halo
 description: 使用 Docker 部署
 published: true
-date: 2021-07-24T07:03:26.433Z
+date: 2021-08-29T10:56:54.484Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:50:08.650Z
@@ -46,7 +46,7 @@ docker run -it -d --name halo -p 8090:8090 -v ~/.halo:/root/.halo --restart=alwa
 - **--name：** 为容器指定一个名称
 - **-p：** 端口映射，格式为 `主机(宿主)端口:容器端口` ，可在 `application.yaml` 配置。
 - **-v：** 工作目录映射。形式为：-v 宿主机路径:/root/.halo，后者不能修改。
-- **--restart：** 建议设置为 `always`，在 Docker 启动的时候自动启动 Halo 容器。
+- **--restart：** 建议设置为 `unless-stopped`，在 Docker 启动的时候自动启动 Halo 容器。
 
 6. 打开 `http://ip:端口号` 即可看到安装引导界面。
 
