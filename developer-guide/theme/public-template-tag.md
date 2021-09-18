@@ -2,7 +2,7 @@
 title: 公共宏模板
 description: 系统提供的一些宏模板
 published: true
-date: 2020-11-30T13:27:43.236Z
+date: 2021-09-18T16:21:48.700Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:15:22.987Z
@@ -25,9 +25,9 @@ dateCreated: 2020-10-11T15:15:22.987Z
     <meta name="robots" content="none">
 </#if>
 <meta name="generator" content="Halo ${version!}"/>
-<@favicon />
-<@custom_head />
-<@custom_content_head />
+<@global.favicon />
+<@global.custom_head />
+<@global.custom_content_head />
 ```
 
 ## 公共底部
