@@ -2,7 +2,7 @@
 title: 配置文件
 description: 主题配置文件的说明
 published: true
-date: 2021-03-07T06:11:09.504Z
+date: 2021-10-04T08:43:24.664Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:12:10.695Z
@@ -54,8 +54,6 @@ sheetMetaField:
   - music_url 
   - download_url
 ```
-
-</details>
 
 ### 自定义 meta
 
