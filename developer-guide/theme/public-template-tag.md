@@ -2,7 +2,7 @@
 title: 公共宏模板
 description: 系统提供的一些宏模板
 published: true
-date: 2021-09-18T16:21:48.700Z
+date: 2021-09-18T16:21:55.758Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:15:22.987Z

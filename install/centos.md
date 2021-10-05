@@ -2,7 +2,7 @@
 title: 在 Centos 7.x 上安装
 description: 带有完整依赖安装的详细指南
 published: true
-date: 2021-01-10T13:50:29.991Z
+date: 2021-07-09T03:06:45.006Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T14:40:44.848Z

@@ -2,7 +2,7 @@
 title: 配置文件
 description: 主题配置文件的说明
 published: true
-date: 2021-10-04T08:43:24.664Z
+date: 2021-10-04T08:43:29.708Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-11T15:12:10.695Z

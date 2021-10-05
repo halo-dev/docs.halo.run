@@ -2,7 +2,7 @@
 title: 功能配置
 description: 系统功能的相关配置说明
 published: true
-date: 2021-04-09T08:56:57.863Z
+date: 2021-07-09T03:06:40.540Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T13:57:03.906Z

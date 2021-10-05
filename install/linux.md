@@ -2,7 +2,7 @@
 title: 在 Linux 环境部署
 description: 在Linux上快速安装Halo
 published: true
-date: 2021-09-16T13:35:15.608Z
+date: 2021-09-16T13:35:20.164Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-09T12:51:55.006Z
